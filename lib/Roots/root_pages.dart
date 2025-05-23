@@ -14,7 +14,7 @@ abstract class Interfaces {
 
   Interfaces._();
 
-  static const _INITIAL = CheminRelatifs.ACCUEIL;
+  static const INITIAL = CheminRelatifs.ACCUEIL;
 
   static final root = [
     GetPage(
