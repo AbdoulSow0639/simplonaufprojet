@@ -1,12 +1,12 @@
 import 'package:get/get.dart';
-import 'package:simplon_auf_projet/Modeles/About/Binding/about_binding.dart';
-import 'package:simplon_auf_projet/Modeles/About/Views/about_views.dart';
-import 'package:simplon_auf_projet/Modeles/Contact/Binding/contact_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Contact/Views/contact_views.dart';
-import 'package:simplon_auf_projet/Modeles/Home/Binding/home_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Home/Views/home_views.dart';
-import 'package:simplon_auf_projet/Modeles/Welcome/Binding/welcome_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Welcome/Views/welcome_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/About/Binding/about_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/About/Views/about_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Binding/contact_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Views/contact_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Home/Binding/home_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Home/Views/home_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Welcome/Binding/welcome_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Welcome/Views/welcome_views.dart';
 
 part 'RootName.dart';
 
