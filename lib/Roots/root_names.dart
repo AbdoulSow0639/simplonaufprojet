@@ -1,3 +1,5 @@
+// Ici contient les chemins absolus et relatifs des interfaces
+
 part of 'root_pages.dart';
 
 abstract class CheminRelatifs {

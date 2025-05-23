@@ -1,3 +1,5 @@
+// Ici l'initialisation des interfaces
+
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Models/Accueil/Binding/accueil_binding.dart';
 import 'package:simplon_auf_projet/Models/Accueil/View/accueil_view.dart';

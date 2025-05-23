@@ -1,3 +1,5 @@
+// Ici le binding de la page Service
+
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Models/Service/Controller/service_controller.dart';
 

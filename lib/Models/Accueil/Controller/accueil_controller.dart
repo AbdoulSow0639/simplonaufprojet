@@ -1,3 +1,5 @@
+// Ici le controller de la page Accueil
+
 import 'package:get/get.dart';
 
 class AccueilController extends GetxController{

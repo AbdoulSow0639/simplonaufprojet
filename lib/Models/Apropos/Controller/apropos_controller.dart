@@ -1,3 +1,5 @@
+// Ici le controller de la page Apropos
+
 import 'package:get/get.dart';
 
 class AproposController extends GetxController{

@@ -1,3 +1,5 @@
+// Ici le controller de la page Contact
+
 import 'package:get/get.dart';
 
 class ContactController extends GetxController{

@@ -1,3 +1,5 @@
+// Ici la vue de la page Accueil
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Models/Accueil/Controller/accueil_controller.dart';

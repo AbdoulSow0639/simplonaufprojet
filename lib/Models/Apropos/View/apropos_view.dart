@@ -1,3 +1,5 @@
+// Ici la vue de la page Apropos
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Models/Apropos/Controller/apropos_controller.dart';
