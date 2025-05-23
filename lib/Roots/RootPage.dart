@@ -15,6 +15,7 @@ class Rootpage {
 
   static const INITIAL = Rootes.WELCOME;
   static final root = [
+    //Pour la page About
     GetPage(
       name: _Paths.ABOUT,
       page: () => AboutViewsUI(),

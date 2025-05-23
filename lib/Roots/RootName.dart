@@ -1,5 +1,6 @@
 part of 'RootPage.dart';
 
+//Chemin Relatif
 abstract class Rootes {
   Rootes._();
 
@@ -9,6 +10,7 @@ abstract class Rootes {
   static const WELCOME = _Paths.WELCOME;
 }
 
+//Chemin Absolu
 abstract class _Paths {
   _Paths._();
 
