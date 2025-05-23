@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
-class AboutController extends GetxController{
+class AboutController extends GetxController {
+  //Initialisation
   @override
   void onInit() {
     // TODO: implement onInit

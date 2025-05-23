@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:simplon_auf_projet/Mod%C3%A8les/About/Controller/about_controller.dart';
+import 'package:simplon_auf_projet/Modeles/About/Controller/about_controller.dart';
 
 class AboutBinding  extends Bindings{
   @override
