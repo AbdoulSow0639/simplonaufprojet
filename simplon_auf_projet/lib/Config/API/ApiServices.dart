@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class Apiservices {
-  static const String _url = "https://sambayaservcives.com/api";
+  final String _url = "https://sambayaservcives.com/api";
 
   postData(data, action) async {
     var finalUrl = _url + action;
