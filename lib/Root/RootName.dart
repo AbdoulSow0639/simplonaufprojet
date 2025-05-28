@@ -6,6 +6,8 @@ abstract class Root {
     static const CONTACT = _Path.CONTACT;
     static const SERVICES = _Path.SERVICES;
     static const ABOUT = _Path.ABOUT;
+    static const ACTUALITES = _Path.ACTUALITES;
+    static const PREMIUM = _Path.PREMIUM;
 
   }
 
@@ -15,4 +17,6 @@ abstract class _Path{
   static const CONTACT = '/Contact';
   static const SERVICES = '/Services';
   static const ABOUT = '/About';
+  static const ACTUALITES = '/Actualités';
+  static const PREMIUM = '/Premium';
 }

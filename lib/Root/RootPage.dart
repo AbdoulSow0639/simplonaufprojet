@@ -1,10 +1,14 @@
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Modeles/About/Binding/about_binding.dart';
 import 'package:simplon_auf_projet/Modeles/About/View/about_view.dart';
+import 'package:simplon_auf_projet/Modeles/Actualites/Binding/actu_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Actualites/View/actu_view.dart';
 import 'package:simplon_auf_projet/Modeles/Bienvenue/Binding/bienvenue_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Bienvenue/View/bienvenue_view.dart';
 import 'package:simplon_auf_projet/Modeles/Contact/Binding/contact_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Contact/View/contact_view.dart';
+import 'package:simplon_auf_projet/Modeles/Premium/Binding/premium_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Premium/View/premium_view.dart';
 import 'package:simplon_auf_projet/Modeles/Services/Binding/services_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Services/View/services_view.dart';
 
@@ -34,5 +38,15 @@ class Rootpage {
       page:() => ServicesViewsUI(),
       binding: ServicesBinding(),
     ),
+    GetPage(
+      name: _Path.ACTUALITES,
+      page: () => ActuViewsUI(),
+      binding: ActuBinding(),
+    ),
+    GetPage(
+      name: _Path.PREMIUM,
+      page: () => PremiumViewsUI(),
+      binding: PremiumBinding(),
+    )
   ];
 }

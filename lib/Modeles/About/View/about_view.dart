@@ -5,7 +5,9 @@ import 'package:simplon_auf_projet/Modeles/About/Controller/about_controller.dar
 class AboutViewsUI extends GetView<AboutController>{
   @override
   Widget build(BuildContext context){
-    return const Placeholder();
+    return Scaffold(
+      body: const Center(child: Text("Bienvenue chez AUF"),)
+    );
   }
 }
 
