@@ -15,23 +15,23 @@ class Rootpage {
   static const INITIAL = Rootes.WECOME;
   static final root = [
     GetPage(
-      name: '/Contact',
+      name: Plan.CONCTAT,
       page: () => ContactViewsUI(),
       binding: ContactBinding(),
     ),
 
-    GetPage(name: '/Home', 
+    GetPage(name: Plan.HOME, 
     page: () => HomeViewsUI(), 
     binding: HomeBinding()),
-    
+
     GetPage(
-      name: '/Welcome',
+      name: Plan.WELCOME,
       page: () => WelcomeViewsUI(),
       binding: WelcomeBinding(),
     ),
 
     GetPage(
-      name: '/Service',
+      name: Plan.SERVICES,
       page: () => ServiceViewsUI(),
       binding: ServiceBinding()
     ),
