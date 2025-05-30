@@ -1,12 +1,12 @@
-import 'package:get/get.dart';
-import 'package:simplon_auf_projet/Modeles/About/Binding/about_binding.dart';
-import 'package:simplon_auf_projet/Modeles/About/Views/about_views.dart';
-import 'package:simplon_auf_projet/Modeles/Contact/Binding/contact_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Contact/Views/contact_views.dart';
-import 'package:simplon_auf_projet/Modeles/Home/Binding/home_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Home/Views/home_views.dart';
-import 'package:simplon_auf_projet/Modeles/Welcome/Binding/welcome_binding.dart';
-import 'package:simplon_auf_projet/Modeles/Welcome/Views/welcome_views.dart';
+import 'package:get/get_navigation/src/routes/get_route.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/About/Binding/about_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/About/Views/about_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Binding/contact_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Views/contact_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Home/Binding/home_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Home/Views/home_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Welcome/Binding/welcome_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Welcome/Views/welcome_views.dart';
 
 part 'RootName.dart';
 
@@ -15,27 +15,29 @@ class Rootpage {
 
   static const INITIAL = Rootes.WELCOME;
   static final root = [
-    //Pour la page About
+   
+    // Pour About
     GetPage(
       name: _Paths.ABOUT,
       page: () => AboutViewsUI(),
       binding: AboutBinding(),
     ),
 
-    //Pour la page Contact
+    //Pour Contact
     GetPage(
       name: _Paths.CONTACT,
       page: () => ContactViewsUI(),
       binding: ContactBinding(),
     ),
-
-    //Pour la page Home
+    
+    //Pour Home
     GetPage(
       name: _Paths.HOME,
       page: () => HomeViewsUI(),
       binding: HomeBinding(),
     ),
 
+    //Pour Welcome
     GetPage(
       name: _Paths.WELCOME,
       page: () => WelcomeViewsUI(),

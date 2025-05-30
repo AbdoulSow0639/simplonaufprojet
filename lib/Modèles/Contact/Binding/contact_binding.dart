@@ -1,0 +1,13 @@
+import 'package:get/get.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Controller/contact_controller.dart';
+
+class ContactBinding extends Bindings{
+  @override
+  void dependencies() {
+    // TODO: implement dependencies
+
+    Get.put<ContactController>(
+      ContactController()
+    );
+  }
+}
