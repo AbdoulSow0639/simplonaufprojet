@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:simplon_auf_projet/Rootes/root_page.dart';
+import 'package:simplon_auf_projet/Route/root_page.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized;
@@ -11,8 +12,8 @@ void main() {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.transparent,
-          elevation: 2,
+          backgroundColor: Colors.blue,
+          elevation: 6,
         ),
       ),
     ),
