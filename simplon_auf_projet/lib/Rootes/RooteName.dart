@@ -1,23 +1,21 @@
 part of 'RootePage.dart';
 
-//Chemins relatifs
-abstract class Rootes {
-  Rootes._();
+//Chemins absolus
+abstract class Roote {
+  Roote._();
 
-  static const ABOUT = _Path.ABOUT;
-  static const CONTACT = _Path.CONTACT;
-  static const HOME = _Path.HOME;
-  static const SERVICES = _Path.SERVICES;
-  static const WELCOME = _Path.WELCOME;
+  static const ABOUT = _Paths.ABOUT;
+  static const CONTACT = _Paths.CONTACT;
+  static const HOME = _Paths.HOME;
+  static const WELCOME = _Paths.WELCOME;
 }
 
-//Chemins absolus
-abstract class _Path {
-  _Path._();
+//Chemins relatives
+abstract class _Paths {
+  _Paths._();
 
   static const ABOUT = "/About";
   static const CONTACT = "/Contact";
   static const HOME = "/Home";
-  static const SERVICES = "/Services";
   static const WELCOME = "/Welcome";
 }

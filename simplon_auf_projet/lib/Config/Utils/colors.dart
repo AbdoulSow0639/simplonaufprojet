@@ -1,7 +1,9 @@
 part of values;
 
 class AppColors {
-  static const ROUGE = Colors.red;
-  static const JAUNE = Colors.yellow;
-  static const VERT = Colors.green;
+  static const Color ROUGE = Colors.red;
+  static const Color JAUNE = Colors.yellow;
+  static const Color VERTE = Colors.green;
+  static const Color BLEU = Colors.blue;
+  static const Color NOIR = Colors.black;
 }

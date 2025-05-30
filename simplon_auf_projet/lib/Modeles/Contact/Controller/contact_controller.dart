@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class ServicesController extends GetxController {
+class ContactController extends GetxController {
 
   @override
   void onInit() {

@@ -1,35 +1,49 @@
 part of values;
 
-class FrontUI_16 {
+class FrontUI_10 {
   static const TextStyle fonts = TextStyle(
-    color: AppColors.JAUNE,
-    fontSize: SizesFront.sizeUI_16,
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_10,
     fontWeight: FontWeight.bold
   );
 }
 
-class FrontUI_25 {
+class FrontUI_14 {
   static const TextStyle fonts = TextStyle(
-    color: AppColors.VERT,
-    fontSize: SizesFront.sizeUI_25,
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_14,
+    fontWeight: FontWeight.bold
+  );
+}
+
+class FrontUI_16 {
+  static const TextStyle fonts = TextStyle(
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_16,
     fontWeight: FontWeight.bold
   );
 }
 
 class FrontUI_20 {
   static const TextStyle fonts = TextStyle(
-    color: AppColors.VERT,
-    fontSize: SizesFront.sizeUI_20,
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_20,
     fontWeight: FontWeight.bold
   );
 }
 
-class FrontUI_100 {
+class FrontUI_24 {
   static const TextStyle fonts = TextStyle(
-    color: AppColors.VERT,
-    fontSize: SizesFront.sizeUI_100,
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_24,
     fontWeight: FontWeight.bold
   );
 }
 
-class AppStyles {}
+class FrontUI_32 {
+  static const TextStyle fonts = TextStyle(
+    color: AppColors.NOIR,
+    fontSize: Sizes.tailleUI_32,
+    fontWeight: FontWeight.bold
+  );
+}

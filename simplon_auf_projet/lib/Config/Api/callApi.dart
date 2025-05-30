@@ -2,38 +2,30 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-class Apiservices {
-  final String _url = "https://sambayaservcives.com/api";
+class CallApi {
+  static final _url = "https://openweathermap.org/api";
 
   postData(data, action) async {
-    var finalUrl = _url + action;
+    var finalurl = _url + action;
 
-    return await http.post(
-      Uri.parse(finalUrl), 
-      body: jsonEncode(data)
-    );
+    return await http.post(Uri.parse(finalurl), body: jsonEncode(data));
   }
 
   getAllData(action) async {
     var finalUrl = _url + action;
 
-    return await http.get(
-      Uri.parse(finalUrl)
-    );
+    return await http.get(Uri.parse(finalUrl));
   }
 
-  getCurentData(id, action) async {
+  getCurentDate(id, action) async {
     var finalUrl = _url + action;
 
     Map<String, String> queryParams = {"id": id};
 
     Uri uri = Uri.parse(finalUrl);
-
     var allUrl = uri.replace(queryParameters: queryParams);
 
-    return await http.get(
-      allUrl
-    );
+    return await http.get(allUrl);
   }
 
   updateCurentData(id, data, action) async {
@@ -42,27 +34,19 @@ class Apiservices {
     Map<String, String> queryParams = {"id": id};
 
     Uri uri = Uri.parse(finalUrl);
-
     var allUrl = uri.replace(queryParameters: queryParams);
 
-    return await http.put(
-      allUrl,
-      body : jsonEncode(data)
-    );
+    return await http.put(allUrl, body: jsonEncode(data));
   }
 
-  deleteCurentData(id, action) async {
+  deleteCurentData(id, data, action) async {
     var finalUrl = _url + action;
 
-    Map<String, String> queryParams = {
-      "id": id
-    };
+    Map<String, String> queryParams = {"id": id};
 
     Uri uri = Uri.parse(finalUrl);
     var allUrl = uri.replace(queryParameters: queryParams);
 
-    return await http.delete(
-      allUrl
-    );
+    return await http.delete(allUrl, body: jsonEncode(data));
   }
 }
