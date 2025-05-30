@@ -1,14 +1,12 @@
-import "package:flutter/material.dart";
-import "package:get/get_state_manager/src/simple/get_view.dart";
-import "package:simplon_auf_projet/Modul/Contact/Binding/contact_binding.dart";
+import 'package:flutter/widgets.dart';
+import 'package:get/get.dart';
+import 'package:simplon_auf_projet/Modul/Contact/Controller/contact_controller.dart';
 
-class ContactViewsUI extends GetView<ContactBinding> {
-  
+
+class ContactViews extends GetView<ContactController>{
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const Center(child: Text("Bienvenue chez AUF"),),
-    );
+    return const Placeholder();
   }
 }

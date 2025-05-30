@@ -1,6 +1,4 @@
-part of "RootePage.dart";
-
-
+part of "RootesPage.dart";
 
 abstract class Rootes {
   Rootes._();
@@ -10,7 +8,6 @@ abstract class Rootes {
   static const HOME = _Paths.HOME;
   static const SERVICE = _Paths.SERVICE;
 }
-
 
 abstract class _Paths {
   _Paths._();

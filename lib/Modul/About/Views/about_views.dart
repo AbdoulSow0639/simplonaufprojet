@@ -1,11 +1,10 @@
-import "package:flutter/material.dart";
-import "package:get/get.dart";
-import "package:simplon_auf_projet/Modul/About/Controller/about_controller.dart";
+import 'package:flutter/widgets.dart';
+import 'package:get/get.dart';
+import 'package:simplon_auf_projet/Modul/About/Controller/about_controller.dart';
 
-class AboutViewsUI extends GetView<AboutController> {
+class AboutViews extends GetView<AboutController> {
   
-
-  @override
+    @override
   Widget build(BuildContext context) {
     return const Placeholder();
   }
