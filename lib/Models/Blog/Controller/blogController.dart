@@ -1,8 +1,6 @@
-// Ici le controller de la page Contact
-
 import 'package:get/get.dart';
 
-class ContactController extends GetxController{
+class Blogcontroller extends GetxController{
 
   @override
   void onInit() {
@@ -11,14 +9,14 @@ class ContactController extends GetxController{
   }
 
   @override
-  void onReady() {
-    // TODO: implement onReady
-    super.onReady();
-  }
-
-  @override
   void onClose() {
     // TODO: implement onClose
     super.onClose();
+  }
+
+  @override
+  void onReady() {
+    // TODO: implement onReady
+    super.onReady();
   }
 }

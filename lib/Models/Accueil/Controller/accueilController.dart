@@ -1,8 +1,6 @@
-// Ici le controller de la page Apropos
-
 import 'package:get/get.dart';
 
-class AproposController extends GetxController{
+class Accueilcontroller extends GetxController{
 
   @override
   void onInit() {
@@ -11,14 +9,14 @@ class AproposController extends GetxController{
   }
 
   @override
-  void onReady() {
-    // TODO: implement onReady
-    super.onReady();
-  }
-
-  @override
   void onClose() {
     // TODO: implement onClose
     super.onClose();
+  }
+
+  @override
+  void onReady() {
+    // TODO: implement onReady
+    super.onReady();
   }
 }

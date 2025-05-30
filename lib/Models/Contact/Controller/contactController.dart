@@ -1,8 +1,6 @@
-// Ici le controller de la page Accueil
-
 import 'package:get/get.dart';
 
-class AccueilController extends GetxController{
+class  Contactcontroller extends GetxController{
 
   @override
   void onInit() {
@@ -13,6 +11,7 @@ class AccueilController extends GetxController{
   @override
   void onReady() {
     // TODO: implement onReady
+    super.onReady();
   }
 
   @override
