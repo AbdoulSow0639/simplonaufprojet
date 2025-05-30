@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class ContactController extends GetxController {
-  @override
+@override
   void onInit() {
     // TODO: implement onInit
     super.onInit();

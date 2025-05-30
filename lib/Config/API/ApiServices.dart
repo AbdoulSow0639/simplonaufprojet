@@ -2,16 +2,17 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-class Apiservices {
+class ApiExemple {
   final String _url = "https://sambayaservices.com/api";
 
-  postData(data,action) async {
+  postData(data, action) async {
     var finalUrl = _url + action;
     return await http.post(Uri.parse(finalUrl), body: jsonEncode(data));
   }
 
   getAllData(action) async {
     var finalUrl = _url + action;
+
     return await http.get(Uri.parse(finalUrl));
   }
 
@@ -19,23 +20,23 @@ class Apiservices {
     Map<String, String> queryparams = {"id_us": id};
     var finalUrl = _url + action;
     Uri uri = Uri.parse(finalUrl);
-    final allUri = uri.replace(queryParameters: queryparams);
-    return await http.get(allUri);
+    final AllUrl = uri.replace(queryParameters: queryparams);
+    return await http.get(AllUrl);
   }
 
   updateData(id, data, action) async {
     Map<String, String> queryparams = {"id_us": id};
     var finalUrl = _url + action;
     Uri uri = Uri.parse(finalUrl);
-    final allUri = uri.replace(queryParameters: queryparams);
-    return await http.put(allUri, body: jsonEncode(data));
+    final allUrl = uri.replace(queryParameters: queryparams);
+    return await http.put(allUrl, body: jsonEncode(data));
   }
 
   deleteData(id, action) async {
     Map<String, String> queryparams = {"id_us": id};
     var finalUrl = _url + action;
     Uri uri = Uri.parse(finalUrl);
-    final allUri = uri.replace(queryParameters: queryparams);
-    return await http.delete(allUri);
+    final allUrl = uri.replace(queryParameters: queryparams);
+    return await http.delete(allUrl);
   }
 }

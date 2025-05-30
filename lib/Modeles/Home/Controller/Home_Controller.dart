@@ -16,4 +16,4 @@ class HomeController extends GetxController {
     // TODO: implement onClose
     super.onClose();
   }
-} 
+}

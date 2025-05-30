@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class ServiceController extends GetxController {
+class ServicesController extends GetxController {
   @override
   void onInit() {
     // TODO: implement onInit
@@ -11,9 +11,9 @@ class ServiceController extends GetxController {
     // TODO: implement onReady
     super.onReady();
   }
-  @override
+   @override
   void onClose() {
     // TODO: implement onClose
     super.onClose();
   }
-}  
+}

@@ -8,6 +8,7 @@ void main() {
     GetMaterialApp(
       initialRoute: Rootpage.INITIAL,
       getPages: Rootpage.root,
+      
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.transparent,

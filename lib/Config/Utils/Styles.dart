@@ -2,8 +2,9 @@ part of Values;
 
 class FrontUI {
   static const TextStyle fronts = TextStyle(
-    color: AppColors.RED,
-    fontSize: 16,
+    color: Colors.black,
+    fontSize: 15,
     fontWeight: FontWeight.bold,
+    fontStyle: FontStyle.italic,
   );
 }

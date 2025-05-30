@@ -5,9 +5,9 @@ class ContactBinding extends Bindings {
   @override
   void dependencies() {
     // TODO: implement dependencies
-
     Get.put<ContactController>(
       ContactController()
-    );
+      );
   }
+
 }
