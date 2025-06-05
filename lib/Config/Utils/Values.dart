@@ -6,3 +6,5 @@ part 'Colors.dart';
 part 'Size.dart';
 part 'Border.dart';
 part 'Styles.dart';
+part 'Images.dart';
+part 'String.dart';

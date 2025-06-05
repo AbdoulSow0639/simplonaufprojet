@@ -1,4 +1,6 @@
 import 'package:get/route_manager.dart';
+import 'package:simplon_auf_projet/Modeles/Briefun/Binding/Briefun_Binding.dart';
+import 'package:simplon_auf_projet/Modeles/Briefun/Views/Briefun_Views.dart';
 import 'package:simplon_auf_projet/Modeles/Contact/Binding/Contact_Binding.dart';
 import 'package:simplon_auf_projet/Modeles/Contact/Views/Contact_Views.dart';
 import 'package:simplon_auf_projet/Modeles/Home/Binding/Home_Binding.dart';
@@ -13,12 +15,12 @@ part 'RootName.dart';
 
 class Rootpage {
   Rootpage._();
-  static const INITIAL = Rootes.WELCOME;
+  static const INITIAL = Rootes.BRIEFUN;
   static final root = [
-    GetPage(name: Plan.WELCOME,
-     page:() => WelcomeViewsUI(), 
-     binding: WelcomeBinding()
-     ),
+    // GetPage(name: Plan.WELCOME,
+    // page:() => WelcomeViewsUI(), 
+    //  binding: WelcomeBinding()
+    //  ),
 
     GetPage(name: Plan.CONTACT,
      page:() => ContactViewsUI(), 
@@ -34,6 +36,12 @@ class Rootpage {
      page: () => ServicesViewsUI(),
      binding: ServicesBinding()
      ),
+
+      GetPage(name: Plan.BRIEFUN,
+     page: () => BriefunViewsUI(),
+     binding: BriefunBinding()
+     ),
+
 
   ];
 }

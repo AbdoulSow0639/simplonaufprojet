@@ -6,6 +6,7 @@ abstract class Rootes {
   static const HOME = Plan.HOME;
   static const SERVICES = Plan.SERVICES;
   static const WELCOME = Plan.WELCOME;
+  static const BRIEFUN = Plan.BRIEFUN;
 }
 
 abstract class Plan {
@@ -14,4 +15,5 @@ abstract class Plan {
   static const HOME = '/Home';
   static const SERVICES = '/Services';
   static const WELCOME = '/Welcome';
+  static const BRIEFUN = '/Briefun';
 }

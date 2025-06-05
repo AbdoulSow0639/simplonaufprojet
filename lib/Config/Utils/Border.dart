@@ -1,9 +1,9 @@
 part of Values;
 
-class BorderStyles {
+class Bordures {
   static const BorderSide bard = BorderSide(
     width: 3,
-    color: Colors.transparent,
+    color: Colors.blueAccent,
     style: BorderStyle.solid,
   );
 }
