@@ -1,6 +1,8 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:simplon_auf_projet/Mod%C3%A8les/About/Binding/about_binding.dart';
 import 'package:simplon_auf_projet/Mod%C3%A8les/About/Views/about_views.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Briefun/Binding/briefun_binding.dart';
+import 'package:simplon_auf_projet/Mod%C3%A8les/Briefun/Views/briefun_views.dart';
 import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Binding/contact_binding.dart';
 import 'package:simplon_auf_projet/Mod%C3%A8les/Contact/Views/contact_views.dart';
 import 'package:simplon_auf_projet/Mod%C3%A8les/Home/Binding/home_binding.dart';
@@ -13,7 +15,7 @@ part 'RootName.dart';
 class Rootpage {
   Rootpage._();
 
-  static const INITIAL = Rootes.WELCOME;
+  static const INITIAL = Rootes.BRIEFUN;
   static final root = [
    
     // Pour About
@@ -42,6 +44,13 @@ class Rootpage {
       name: _Paths.WELCOME,
       page: () => WelcomeViewsUI(),
       binding: WelcomeBinding(),
+    ),
+
+    //Pour le Briefun
+    GetPage(
+      name: _Paths.BRIEFUN,
+      page: () => BriefunViewsUI(),
+      binding: BriefunBinding(),
     ),
   ];
 }

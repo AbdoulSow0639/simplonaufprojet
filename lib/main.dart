@@ -9,7 +9,9 @@ void main() {
       initialRoute: Rootpage.INITIAL,
       getPages: Rootpage.root,
       debugShowCheckedModeBanner: false,
+      title: "Mon Application",
       theme: ThemeData(
+        primarySwatch: Colors.blue,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.transparent,
           elevation: 2

@@ -8,6 +8,7 @@ abstract class Rootes {
   static const CONTACT = _Paths.CONTACT;
   static const HOME = _Paths.HOME;
   static const WELCOME = _Paths.WELCOME;
+  static const BRIEFUN = _Paths.BRIEFUN;
 }
 
 //Chemin Absolu
@@ -18,4 +19,5 @@ abstract class _Paths {
   static const CONTACT = "/Contact";
   static const HOME = "/Home";
   static const WELCOME = "/Welcome";
+  static const BRIEFUN = "/Briefun";
 }
