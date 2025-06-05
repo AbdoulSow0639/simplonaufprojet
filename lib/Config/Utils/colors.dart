@@ -1,5 +1,7 @@
-part of values;
+part of 'values.dart';
 
-class AppColors {
-  static const Color BLEU_CLAIRE = Colors.cyan;
+class Couleurs {
+  static const CouleurBleuCiel = Colors.cyan;
+  static const CouleurRouge = Colors.red;
+  static const CouleursViolet = Color.fromRGBO(157, 139, 192, 1);
 }
