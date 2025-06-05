@@ -8,6 +8,7 @@ abstract class CheminRelatifs {
   static const BLOG = CheminAbsolus.BLOG ;
   static const CONTACT =  CheminAbsolus.CONTACT;
   static const SERVICE =  CheminAbsolus.SERVICE;
+  static const BRIEFUN = CheminAbsolus.BRIEFUN;
 
 }
 
@@ -19,5 +20,6 @@ abstract class CheminAbsolus {
   static const BLOG = '/Blog';
   static const CONTACT = '/Contact';
   static const SERVICE = '/Service';
+  static const BRIEFUN = '/Briefun';
 
 }

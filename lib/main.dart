@@ -9,6 +9,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized;
   runApp(
     GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: Interfaces.INITIAL,
       getPages: Interfaces.root,
     )

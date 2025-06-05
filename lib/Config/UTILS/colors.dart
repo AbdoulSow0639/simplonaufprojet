@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
+part of 'values.dart';
 
-class ColorsInterfaces extends MaterialColor{
 
-  ColorsInterfaces(super.primary, super.swatch);
+class MesCouleurs {
 
-  static Color WHITE = Colors.amberAccent;
-  
+  static const Color maCouleurRouge = Color.fromRGBO(161, 22, 22, 1);
+  static const Color maCouleurBlanche = Colors.white;
 }
