@@ -1,6 +1,8 @@
  import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Model/Apropos/Binding/Apropos_binding.dart';
 import 'package:simplon_auf_projet/Model/Apropos/Views/Apropos_views.dart';
+import 'package:simplon_auf_projet/Model/Briefun/Binding/Briefun_binding.dart';
+import 'package:simplon_auf_projet/Model/Briefun/Views/Briefun_views.dart';
 import 'package:simplon_auf_projet/Model/Contacts/Binding/Contacts_binding.dart';
 import 'package:simplon_auf_projet/Model/Contacts/Views/Contacts_views.dart';
 import 'package:simplon_auf_projet/Model/Services/Binding/Services_binding.dart';
@@ -12,9 +14,14 @@ part 'RootsNames.dart';
 
 class Rootspages {
   Rootspages._();
-  static const INITIAL= Rootes.WELCOME; 
+  static const INITIAL= Rootes.BRIEFUN; 
   static final root = [
     GetPage(
+      name:_paths.BRIEFUN,
+      page: () => BriefunViewsUI(),
+      binding: BriefunBinding(),
+    ),
+     GetPage(
       name:_paths.WELCOME,
       page: () => WelcomeViewsUI(),
       binding: WelcomeBinding(),
@@ -22,7 +29,7 @@ class Rootspages {
     
 GetPage(
   name:_paths.APROPOS, 
-  page: () => AproposViewsUI(),
+  page:() => AproposViewsUI(),
   binding:  AproposBinding(),
  ),
  
