@@ -20,16 +20,16 @@ class BriefunViewUI extends GetView {
         ),
         actions: [
           Container(
-            padding: EdgeInsets.only(right: 10),
+            padding: EdgeInsets.only(right: MesDimensions.tailleDix),
             child: Row(
               children: [
                 Icon(Icons.add,color: MesCouleurs.maCouleurBlanche,),
 
-                SizedBox(width: 5,),
+                SizedBox(width: MesDimensions.tailleCinq,),
                 
                 Icon(Icons.edit,color: MesCouleurs.maCouleurBlanche),
 
-                SizedBox(width: 5,),
+                SizedBox(width: MesDimensions.tailleCinq,),
 
 
                 Icon(Icons.visibility,color: MesCouleurs.maCouleurBlanche)
@@ -67,39 +67,44 @@ class BriefunViewUI extends GetView {
                       
                     ),
 
-                    SizedBox(width: 10,),
+                    SizedBox(width: MesDimensions.tailleDix,),
 
 
-                    Column(
+                    Container(
 
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Nom : ${MesTextes.monNom}",
-                          style: TextStyle(
-                            fontSize: MesDimensions.tailleEcriture
+                      width: MesDimensions.taille150,
+
+                      child: Column(
+                      
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Nom : ${MesTextes.monNom}",
+                            style: TextStyle(
+                              fontSize: MesDimensions.tailleEcriture
+                            ),
                           ),
-                        ),
-
-                        SizedBox(height: 10,),
-
-                        Text(
-                          "Telephone : ${MesTextes.monNumero}",
-                          style: TextStyle(
-                            fontSize: MesDimensions.tailleEcriture
+                      
+                          SizedBox(height: MesDimensions.tailleDix,),
+                      
+                          Text(
+                            "Telephone : ${MesTextes.monNumero}",
+                            style: TextStyle(
+                              fontSize: MesDimensions.tailleEcriture
+                            ),
                           ),
-                        ),
-
-                        SizedBox(height: 10,),
-
-                        Text(
-                          "Email : ${MesTextes.monEmail}",
-                          style: TextStyle(
-                            fontSize: MesDimensions.tailleEcriture
+                      
+                          SizedBox(height: MesDimensions.tailleDix,),
+                      
+                          Text(
+                            "Email : ${MesTextes.monEmail}",
+                            style: TextStyle(
+                              fontSize: MesDimensions.tailleEcriture
+                            ),
                           ),
-                        ),
-
-                      ],
+                      
+                        ],
+                      ),
                     )
                   ],
                 ),
@@ -119,17 +124,20 @@ class BriefunViewUI extends GetView {
                         ),
                       ),
 
-                      SizedBox(height: 10,),
+                      SizedBox(height: MesDimensions.tailleDix,),
 
                       Container(
-                        height: 130,
+                        height: MesDimensions.taille130,
                         width: double.infinity,
 
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 205, 206, 206)
                         ),
 
-                        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: MesDimensions.tailleDix, 
+                          vertical: MesDimensions.tailleDix
+                        ),
 
                         child: Column(
                           children: [
@@ -137,37 +145,37 @@ class BriefunViewUI extends GetView {
                               children: [
                                 Icon(Icons.check_circle_outline),
 
-                                SizedBox(width: 5,),
+                                SizedBox(width: MesDimensions.tailleCinq,),
 
-                                Text("Flutter")
+                                Text("${MesTextes.competence1}")
                               ],
                             ),
 
-                            SizedBox(height: 10,),
+                            SizedBox(height: MesDimensions.tailleDix,),
 
 
                             Row(
                               children: [
                                 Icon(Icons.check_circle_outline),
 
-                                SizedBox(width: 5,),
+                                SizedBox(width: MesDimensions.tailleCinq,),
 
 
-                                Text("Flutter")
+                                Text("${MesTextes.competence2}")
                               ],
                             ),
 
-                            SizedBox(height: 10,),
+                            SizedBox(height: MesDimensions.tailleDix,),
 
 
                             Row(
                               children: [
                                 Icon(Icons.check_circle_outline),
 
-                                SizedBox(width: 5,),
+                                SizedBox(width: MesDimensions.tailleCinq,),
 
                                 
-                                Text("Flutter")
+                                Text('${MesTextes.competence3}' )
                               ],
                             )
                           ],
@@ -181,7 +189,7 @@ class BriefunViewUI extends GetView {
 
                 Container(
                   width: double.infinity,
-                  height: 39,
+                  height: MesDimensions.taille39,
                   color: MesCouleurs.maCouleurRouge,
                   child: ElevatedButton(
                   
@@ -197,7 +205,7 @@ class BriefunViewUI extends GetView {
                       fixedSize: WidgetStatePropertyAll(Size.fromWidth(double.infinity)),
                     ), 
                     child: Text(
-                      "Voir plus",
+                      "${MesTextes.voirPlus}",
                       style: TextStyle(
                         color: MesCouleurs.maCouleurBlanche,
                       ),

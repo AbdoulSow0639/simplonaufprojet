@@ -18,4 +18,12 @@ class MesDimensions {
   static const double tailleEcriture =12;
   static const double tailleTitreEcriture = 18;
 
+  static const double tailleDix =  10;
+  static const double tailleCinq = 5;
+  static const double taille130 = 130;
+  static const double taille150 = 150;
+  static const double taille39 = 39;
+  static const double taille300 = 300;
+  static const double taille20 = 20;
+
 }
