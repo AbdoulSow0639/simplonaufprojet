@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Config/Utils/values.dart';
 import 'package:simplon_auf_projet/Models/Service/View/serviceView.dart';
 
+// Ma page d'accueil
+
 class BriefunViewUI extends GetView {
 
   @override
