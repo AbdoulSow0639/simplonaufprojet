@@ -1,9 +1,21 @@
 part of Values;
 
 class SizedFront {
+  static const double Width_1 = 1.0;
+  static const double Width_2 = 2.0;
   static const double Width_100 = 100.0;
+  static const double Width_150 = 150.0;
+  static const double Height_150 = 150.0;
+  static const double Height_200 = 200.0;
+  static const double Height_15 = 15.0;
+  static const double Height_30 = 30.0;
+  static const double SizesUI_3 = 3.0;
   static const double SizesUI_26 = 26.0;
+  static const double SizesUI_16 = 16.0;
   static const double SizesUI_18 = 18.0;
-  static const double SizesUI_14 = 14.0;
-
+  static const double SizesUI_30 = 30.0;
+  static const double SizesUI_20 = 20.0;
+  static const double SizesUI_10 = 10.0;
+  static const double SizesUI_100 = 100.0;
+  static const double SizesUI_300 = 300.0;
 }
