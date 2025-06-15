@@ -1,19 +1,19 @@
-import 'package:get/get.dart';
+// import 'package:get/get.dart';
 
-class BriefunController extends GetxController {
-  @override
-  void onInit() {
-    // TODO: implement onInit
-    super.onInit();
-  }
-  @override
-  void onReady() {
-    // TODO: implement onReady
-    super.onReady();
-  }
-  @override
-  void onClose() {
-    // TODO: implement onClose
+// class BriefunController extends GetxController {
+//   @override
+//   void onInit() {
+//     // TODO: implement onInit
+//     super.onInit();
+//   }
+//   @override
+//   void onReady() {
+//     // TODO: implement onReady
+//     super.onReady();
+//   }
+//   @override
+//   void onClose() {
+//     // TODO: implement onClose
       
-  }
-}
+//   }
+// }

@@ -6,4 +6,5 @@ class AppColors {
   static const colorc = Colors.black26;
   static const colord = Colors.pinkAccent;
   static const colorU = Colors.white54;
+  static const ColorE = Colors.white;
 }
