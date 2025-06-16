@@ -8,6 +8,9 @@ abstract class Rootes {
   static const REGISTER = _Paths.WELCOME;
   static const LOGIN = _Paths.WELCOME;
   static const BRIEFUN = _Paths.BRIEFUN;
+  static const BRIEFDEUX = _Paths.BRIEFDEUX;
+  static const DETAILEMISSION = _Paths.DETAILEMISSION;
+  static const EDITPROFIL = _Paths.EDITPROFIL;
 }
 
 //class pour le chemin absolu
@@ -20,4 +23,7 @@ abstract class _Paths {
   static const LOGIN = "/Login";
   static const REGISTER = "/register";
   static const BRIEFUN = "/BriefUn";
+  static const BRIEFDEUX = "/BriefDeux";
+  static const DETAILEMISSION = "/DetaileEmission";
+  static const EDITPROFIL = "/EditProfil";
 }

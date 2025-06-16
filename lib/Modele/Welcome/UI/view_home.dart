@@ -8,7 +8,6 @@ class ViewHome extends GetView<HomeControleur> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text("Bienvenu chez AUF Simplon"), elevation: 22),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

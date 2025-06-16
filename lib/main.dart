@@ -14,8 +14,6 @@ void main() {
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           backgroundColor: Couleurs.CouleurRouge,
-          elevation: 22,
-          shadowColor: Couleurs.CouleurBleuCiel
         ),
       ),
     ),
