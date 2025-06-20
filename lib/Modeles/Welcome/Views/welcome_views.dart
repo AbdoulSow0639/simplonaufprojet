@@ -4,6 +4,7 @@ import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Modeles/About/Views/about_views.dart';
 import 'package:simplon_auf_projet/Modeles/Home/Views/home_views.dart';
 import 'package:simplon_auf_projet/Modeles/Welcome/Controller/welcome_controller.dart';
+import 'package:simplon_auf_projet/Roots/RootPage.dart';
 
 class WelcomeViewsUI extends GetView<WelcomeController> {
   @override
@@ -50,7 +51,9 @@ class WelcomeViewsUI extends GetView<WelcomeController> {
               SizedBox(height: 20),
 
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.toNamed(Rootes.DEMO);
+                },
                 style: ButtonStyle(
                   backgroundColor: WidgetStatePropertyAll(Colors.orange),
                 ),

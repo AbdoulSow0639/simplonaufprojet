@@ -6,12 +6,11 @@ import 'package:simplon_auf_projet/Modeles/EditProfil/Controller/editprofil_cont
 class EditprofilViewsUI extends GetView<EditprofilController> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(AppStrings.Page2),
-          backgroundColor: AppColors.RED,
-        ),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(AppStrings.Page2),
+        backgroundColor: AppColors.RED,
+      ),
         body: Container(
           width: double.infinity,
           padding: EdgeInsets.symmetric(
@@ -154,7 +153,7 @@ class EditprofilViewsUI extends GetView<EditprofilController> {
                             ),
                           ),
                           child: Text(
-                            AppStrings.connection,
+                            AppStrings.mod,
                             style: StylesUI.oublier,
                           ),
                         ),
@@ -166,7 +165,6 @@ class EditprofilViewsUI extends GetView<EditprofilController> {
             ],
           ),
         ),
-      ),
     );
   }
 }

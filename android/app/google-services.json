@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449564792020",
+    "project_id": "aufsimplonapp",
+    "storage_bucket": "aufsimplonapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449564792020:android:5d05d1e18a59760d349741",
+        "android_client_info": {
+          "package_name": "com.alpha.simplon_auf_projet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk8ROUmNPOUA2C4xUK349egKHjUs62ZRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

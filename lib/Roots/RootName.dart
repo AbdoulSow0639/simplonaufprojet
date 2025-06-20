@@ -12,6 +12,11 @@ abstract class Rootes {
   static const BRIEFDEUX = _Paths.BRIEFDEUX;
   static const DETAILEMISSION = _Paths.DETAILEMISSION;
   static const EDITPROFIL = _Paths.EDITPROFIL;
+  static const DEMO = _Paths.DEMO;
+  static const ESSAI = _Paths.ESSAI;
+  static const BRIEFTROIS = _Paths.BRIEFTROIS;
+  static const ADDFAVORIS = _Paths.ADDFAVORIS;
+  static const LISTEFAVORIS = _Paths.LISTEFAVORIS;
 }
 
 //Chemin Absolu
@@ -26,4 +31,9 @@ abstract class _Paths {
   static const BRIEFDEUX = "/Briefdeux";
   static const DETAILEMISSION = "/Detailemission";
   static const EDITPROFIL = "/Editprofil";
+  static const DEMO = "/Demo";
+  static const ESSAI = "/Essai";
+  static const BRIEFTROIS = "/Brieftrois";
+  static const ADDFAVORIS = "/Addfavoris";
+  static const LISTEFAVORIS = "/Listefavoris";
 }

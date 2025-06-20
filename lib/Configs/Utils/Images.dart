@@ -5,5 +5,6 @@ class ImagesPaths {
   static const IconPaths = "assets/icones";
 
   static const IMG = "$ImgPaths/alpha.jpg";
+  static const IMGMap = "$ImgPaths/map.jpg";
   static const ICON = "$IconPaths/logo.jpg";
 }
