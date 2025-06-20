@@ -1,6 +1,6 @@
 part of "RootPage.dart";
 
-//Chemin rélatif
+//Le Chemin rélatif
 abstract class Rootes {
   Rootes._();
 
@@ -19,7 +19,7 @@ abstract class Rootes {
   static const LISTEFAVORIS = _Paths.LISTEFAVORIS;
 }
 
-//Chemin Absolu
+//Le Chemin Absolu
 abstract class _Paths {
   _Paths._();
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Roots/RootPage.dart';
-
+//Views
 class BrieftroisViewsUI extends GetView {
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,7 @@ class BrieftroisViewsUI extends GetView {
               //SizedBox(height: SizedFront.SizesUI_3),
               Container(
                 width: double.infinity,
-                height: 300,
+                height: SizedFront.SizesUI_300,
                 padding: EdgeInsets.all(SizedFront.SizesUI_50),
                 margin: EdgeInsets.all(SizedFront.SizesUI_5),
                 decoration: BoxDecoration(

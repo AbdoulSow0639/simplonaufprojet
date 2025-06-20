@@ -66,6 +66,7 @@ class AppStrings {
   static const String Aj_e = "Ajouter un endroit";
   static const String En_f = "Endroit favoris";
   static const String Lab_N = "Nom :";
+  static const String Pre = "Prenom :";
   static const String Lab_D = "Description :";
   static const String Aj = "Ajouter";
   static const String L_End = "Liste d'endroit";

@@ -4,7 +4,7 @@ import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Modeles/Demo/Controller/demo_controller.dart';
 import 'package:simplon_auf_projet/Modeles/DetailEmission/Views/detailemission_views.dart';
 import 'package:simplon_auf_projet/Roots/RootPage.dart';
-
+//Views
 class DemoViewsUI extends GetView<DemoController> {
   @override
   Widget build(BuildContext context) {

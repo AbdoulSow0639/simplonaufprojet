@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-
+//Controller
 class AddfavorisController extends GetxController {
   @override
   void onInit() {

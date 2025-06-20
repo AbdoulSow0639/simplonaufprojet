@@ -10,6 +10,7 @@ class SizedFront {
   static const double Height_15 = 15.0;
   static const double Height_30 = 30.0;
   static const double SizesUI_3 = 3.0;
+  static const double SizesUI_4 = 4.0;
   static const double SizesUI_5 = 5.0;
   static const double SizesUI_60 = 60.0;
   static const double SizesUI_70 = 70.0;
@@ -23,4 +24,6 @@ class SizedFront {
   static const double SizesUI_10 = 10.0;
   static const double SizesUI_100 = 100.0;
   static const double SizesUI_300 = 300.0;
+  static const double SizesUI_350 = 350.0;
+  static const double SizesUI_400 = 400.0;
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+//Controller
 class DemoController extends GetxController
     with GetSingleTickerProviderStateMixin {
   late  TabController leController = TabController(length: 3, vsync: this);

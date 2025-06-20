@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Roots/RootPage.dart';
-
+//Views
 class ListefavorisViewsUI extends GetView {
   @override
   Widget build(BuildContext context) {
@@ -39,8 +39,8 @@ class ListefavorisViewsUI extends GetView {
                 ), 
                 SizedBox(height: SizedFront.SizesUI_20,),
                 Container(
-                  width: 350,
-                  height: 400,
+                  width: SizedFront.SizesUI_350,
+                  height: SizedFront.SizesUI_400,
                   padding: EdgeInsets.all(SizedFront.SizesUI_5),
                   margin: EdgeInsets.all(SizedFront.SizesUI_3),
                   color: AppColors.WHITE,
@@ -59,8 +59,6 @@ class ListefavorisViewsUI extends GetView {
                       ),
                       Divider(
                         color: AppColors.Gri, // Tiret blanc
-                        indent: 0, // Marge gauche
-                        endIndent: 0, // Marge droite
                       ),
                       ListTile(
                         leading: CircleAvatar(
@@ -73,8 +71,6 @@ class ListefavorisViewsUI extends GetView {
                       ),
                       Divider(
                         color: AppColors.Gri, // Tiret blanc
-                        indent: 0, // Marge gauche
-                        endIndent: 0, // Marge droite
                       ),
                       ListTile(
                         leading: CircleAvatar(
@@ -87,8 +83,6 @@ class ListefavorisViewsUI extends GetView {
                       ),
                       Divider(
                         color: AppColors.Gri, // Tiret blanc
-                        indent: 0, // Marge gauche
-                        endIndent: 0, // Marge droite
                       ),
                       ListTile(
                         leading: CircleAvatar(
@@ -101,8 +95,6 @@ class ListefavorisViewsUI extends GetView {
                       ),
                       Divider(
                         color: AppColors.Gri, // Tiret blanc
-                        indent: 0, // Marge gauche
-                        endIndent: 0, // Marge droite
                       ),
                       ListTile(
                         leading: CircleAvatar(
@@ -115,8 +107,6 @@ class ListefavorisViewsUI extends GetView {
                       ),
                       Divider(
                         color: AppColors.Gri, // Tiret blanc
-                        indent: 0, // Marge gauche
-                        endIndent: 0, // Marge droite
                       ),
                     ],
                   ),

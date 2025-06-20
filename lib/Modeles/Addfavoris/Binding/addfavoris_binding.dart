@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Modeles/Addfavoris/Controller/addfavoris_controller.dart';
-
+//Binding
 class AddfavorisBinding extends Bindings {
   @override
   void dependencies() {

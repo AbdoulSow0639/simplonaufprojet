@@ -97,7 +97,7 @@ class Rootpage {
       binding: DemoBinding(),
     ),
 
-    //Pour le Essai
+    //Pour l'Essai
     GetPage(
       name: _Paths.ESSAI,
       page: () => EssaiViewsUI(),
@@ -111,14 +111,14 @@ class Rootpage {
       binding: BrieftroisBinding(),
     ),
 
-    //Pour le Addfavoris
+    //Pour l'Addfavoris
     GetPage(
       name: _Paths.ADDFAVORIS,
       page: () => AddfavorisViewsUI(),
       binding: AddfavorisBinding(),
     ),
 
-    //Pour le Listefavoris
+    //Pour la Listefavoris
     GetPage(
       name: _Paths.LISTEFAVORIS,
       page: () => ListefavorisViewsUI(),

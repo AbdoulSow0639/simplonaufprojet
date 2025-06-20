@@ -7,6 +7,7 @@ class AddfavorisViewsUI extends GetView {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: Text(AppStrings.Aj_e, style: StylesUI.Nom),
         leading: IconButton(
@@ -27,7 +28,7 @@ class AddfavorisViewsUI extends GetView {
                 Text(AppStrings.En_f, style: StylesUI.login,),
                 SizedBox(height: SizedFront.SizesUI_10),
                 Container(
-                  width: 400,
+                  width: SizedFront.SizesUI_400,
                   margin: EdgeInsets.all(SizedFront.SizesUI_20),
                   child: Column(
                     children: [

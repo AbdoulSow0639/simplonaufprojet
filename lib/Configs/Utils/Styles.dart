@@ -30,6 +30,10 @@ class StylesUI {
     fontSize: 10,
     color: Colors.black,
   );
+  static const TextStyle sous1 = TextStyle(
+    fontSize: 10,
+    color: Colors.white,
+  );
 
   static const TextStyle titre = TextStyle(
     fontSize: 16,
