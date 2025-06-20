@@ -73,6 +73,9 @@ class BrieftroisViewsUI extends GetView<BrieftroisController> {
                                     controller: controller.edroitController,
                                     decoration: InputDecoration(
                                       hintText: AppStringsUI.EndoritRechercher,
+                                      prefixIcon: Icon(
+                                        Icons.location_on_sharp
+                                      ),
                                       border: OutlineInputBorder(
                                         borderSide: BorderSide(
                                           width: Sizes.tailleUI_1
