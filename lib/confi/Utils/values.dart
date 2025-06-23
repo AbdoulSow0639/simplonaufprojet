@@ -8,4 +8,6 @@ import 'package:flutter/material.dart';
 part "borders.dart";
 part "coulers.dart";
 part "images.dart";
-part "style.dart";
+part "size.dart";
+part 'style.dart';
+part "stringApp.dart";

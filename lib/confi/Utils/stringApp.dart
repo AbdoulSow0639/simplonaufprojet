@@ -1,0 +1,63 @@
+part of values;
+
+class StringApp {
+  static const String loginTitle = "Authentification";
+  static const String loginMessage = "Bienvenue sur ma page de connexion";
+  static const String loginUserName = "Entrez votre nom d'utilisateur";
+  static const String loginlabelPassword = "Mot de pass";
+  static const String loginLabelEmail = "Email ";
+  static const String loginPassword = "Entrez votre mot de passe";
+  static const String loginButtonConnexion = "Se connecter";
+  static const String loginButtonPasswordOublier = "Mot de pass oublier";
+  static const String Nom = "KABA";
+  static const String profil = "Grand-P";
+  static const String Adress = "Conakry Guinée";
+  static const String SeConnecter = "Editer";
+  static const String Detail = "Detail";
+  static const String ST = "Emission String";
+  static const String MODIFIER = "Modifier";
+  static const String moins8C = "Veuillez entrer au moins 8 caractères ";
+  static const String VALEUR = "veuillez entrer une valeur !";
+  static const String ENTREMAIL = "Entrez votre Email";
+  static const String ENTREMAILVALIDE = "veuillez entrer un mail valide svp !";
+  static const String PASMAIL = "Email invalide ";
+  static const String PASMAIL00 = "veuillez entrer une valeur !";
+  static const String DE = "Detail Emission!";
+  static const String Nomoss= "SY SAVANE";
+  static const String prenomoss= "Oumar";
+  static const String Nom2= "CONDE";
+  static const String prenom2= "Saran";
+  static const String Nom3= "SYLLA";
+  static const String prenom3= "Sékou";
+  static const String prenom4= "Aminata";
+  static const String nom4= "CAMARA";
+  static const String nom5= "KEITA";
+  static const String prenom5= "CAMARA";
+  static const String Emailoss= "sysavaneoum@gmail.com";
+  static const String Telephone= "621-63-13-82";
+  static const String Endroit= "Endroit";
+  static const String AEndroit= "Ajouter un Endroit";
+  static const String lEndroit= "Liste d'endroit";
+  static const String fEndroit= "Endroit Favoris";
+  static const String NfEndroit= "Nom du Favoris :";
+  static const String efEndroit= "Entrer un Nom Favoris :";
+  static const String des = "Description :";
+  static const String Edes = "Entrer une description :";
+  static const String aj = "Ajouter";
+  static const String PE = "Proposer un Endroit";
+  static const String RE = "Rechercher";
+  static const String EE = "Entrer un endroit";
+  static const String EER = "Recherche endroit";
+  static const String kk = "Kankan";
+  static const String kkd = "18/09/2024";
+  static const String zaly = "N'zérekoré";
+  static const String zalyd = "02/04/2025";
+  static const String BK = "BOKE";
+  static const String BKD = "01/01/2025";
+  static const String UJNK = "Université KANKAN";
+  static const String UJNKD = "05/03/2025";
+  static const String KP = "Kipé";
+  static const String KPD = "03/03/2025";
+  
+
+}
