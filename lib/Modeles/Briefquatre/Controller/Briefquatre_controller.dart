@@ -1,6 +1,12 @@
 import 'package:get/get.dart';
 
-class EssaiController extends GetxController {
+class BriefquatreController extends GetxController {
+  var CurrenteIndex = 0.obs;
+
+  void changeTabIndex(int i) {
+    CurrenteIndex.value = i;
+  }
+
   @override
   void onInit() {
     // TODO: implement onInit

@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Modeles/About/Views/about_views.dart';
+import 'package:simplon_auf_projet/Modeles/Briefun/Controller/briefun_controller.dart';
 
-class BriefunViewsUI extends GetView {
+class BriefunViewsUI extends GetView<BriefunController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

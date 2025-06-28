@@ -91,7 +91,7 @@ class DemoViewsUI extends GetView<DemoController> {
                   Divider(color: AppColors.WHITE),
                   ListTile(
                     onTap: () {
-                      Get.toNamed(Rootes.ESSAI);
+                      Get.toNamed(Rootes.BRIEFTROIS);
                     },
                     leading: Icon(Icons.login, color: AppColors.WHITE),
                     title: Text(AppStrings.L, style: StylesUI.Nom),

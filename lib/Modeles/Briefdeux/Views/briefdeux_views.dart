@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
+import 'package:simplon_auf_projet/Modeles/Briefdeux/Controller/briefdeux_controller.dart';
 import 'package:simplon_auf_projet/Modeles/DetailEmission/Views/detailemission_views.dart';
 import 'package:simplon_auf_projet/Roots/RootPage.dart';
 
-class BriefdeuxViewsUI extends GetView {
+class BriefdeuxViewsUI extends GetView<BriefdeuxController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

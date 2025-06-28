@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
+import 'package:simplon_auf_projet/Modeles/DetailEmission/Controller/detailemission_controller.dart';
 
-class DetailemissionViewsUI extends GetView {
+class DetailemissionViewsUI extends GetView<DetailemissionController> {
   @override
   Widget build(BuildContext context) {
     return Container(

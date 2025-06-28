@@ -1,6 +1,11 @@
 import 'package:get/get.dart';
 
 class ContactController extends GetxController {
+  var CurrenteIndex = 0.obs;
+
+  void changeTabIndex(int i) {
+    CurrenteIndex.value = i;
+  }
 
   @override
   void onInit() {

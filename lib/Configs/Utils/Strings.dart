@@ -75,4 +75,53 @@ class AppStrings {
   static const String Da = "Dabompa";
   static const String Ga = "Gamal Abdel Nasser";
   static const String Ko = "Kobaya";
+
+  static const String B_B1 = "Bienvenue chez Edith";
+  static const String B_C = "Se Connecter";
+  static const String B_I = "S'inscrire";
+
+  static const String E_T = "Edith";
+
+  static const String B_H  = "Home";
+  static const String B_E = "Editeur";
+  static const String B_HI = "Historique";
+  static const String B_P = "Profil";
+
+
+  static const String E_E1 = "Editeur";
+  static const String E_E2 = "Gros lot gagné";
+
+  static const String E_1 = "Business";
+  static const String E_2 = "Technologie";
+  static const String E_3 = "Sport";
+  static const String E_4 = "Catégories";
+  static const String E_A1 = "Article 1";
+  static const String E_A2 = "Article 2";
+  static const String E_A3 = "Article 3";
+  static const String E_A4 = "Article 4";
+  static const String E_A5 = "Article 5";
+  static const String E_A6 = "Article 6";
+  static const String E_D1 = "22/05/2025";
+  static const String E_D2 = "20/03/2025";
+  static const String E_D3 = "12/02/2025";
+  static const String E_D4 = "02/01/2025";
+  static const String E_D5 = "20/09/2024";
+  static const String E_D6 = "12/05/2024";
+
+  static const String Ed_1 = "Editeur 1";
+  static const String Ed_2 = "Editeur 2";
+  static const String Ed_3 = "Editeur 3";
+  static const String Red_1 = "Redacteur 1";
+  static const String Red_2 = "Redacteur 2";
+  static const String Red_3 = "Redacteur 3";
+
+  static const String Edi = "Nos Editeurs";
+  static const String Red = "Nos Redacteurs";
+  static const String P_T = "623914496";
+  static const String P_Em = "Editeur1@gmail.com";
+  static const String P_I = "Information";
+  static const String P_Ae = "Ajouter un editeur";
+  static const String P_Ar = "Ajouter un redacteur";
+  static const String P_D = "Déconnection";
+  
 }
