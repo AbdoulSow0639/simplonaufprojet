@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Config/Utils/values.dart';
 import 'package:simplon_auf_projet/Modules/Home/Controller/home_controller.dart';
-import 'package:simplon_auf_projet/Modules/Inscription/Controller/Inscription_controller.dart';
-import 'package:simplon_auf_projet/Modules/Inscription/Views/inscription_views.dart';
-import 'package:simplon_auf_projet/Modules/Login/Controller/login_controller.dart';
-import 'package:simplon_auf_projet/Modules/Login/Views/login_views.dart';
+import 'package:simplon_auf_projet/Rooters/RootePage.dart';
 
 class HomeViewsUI extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColorsUI.BLANK,
+      appBar: AppBar(
+        backgroundColor: AppColorsUI.BLANK,
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -20,16 +20,16 @@ class HomeViewsUI extends GetView<HomeController> {
               padding: EdgeInsets.all(Sizes.tailleUI_10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 400,
+                    height: Sizes.tailleUI_400,
                     width: double.infinity,
                     decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(AppImagesUI.AUF),
-                          fit: BoxFit.scaleDown
+                          fit: BoxFit.contain
                         ),
+                        color: AppColorsUI.BLANK,
                         border: Border.all(
                           color: AppColorsUI.appBorderBackgroundColor,
                           width: Sizes.tailleUI_3
@@ -39,7 +39,7 @@ class HomeViewsUI extends GetView<HomeController> {
                       children: [
                         Positioned(
                             left: Sizes.tailleUI_10,
-                            bottom: Sizes.tailleUI_10,
+                            bottom: Sizes.tailleUI_50,
                             child: Text(
                               AppStringsUI.BienvenuAuf,
                               style: FrontUI.fonts_20,
@@ -50,29 +50,36 @@ class HomeViewsUI extends GetView<HomeController> {
                   SizedBox(
                     height: Sizes.tailleUI_10,
                   ),
-                  Text(
-                    AppStringsUI.AUFmessage,
-                    style: FrontUI.fonts_16,
-                    textAlign: TextAlign.center,
+                  Container(
+                    height: Sizes.tailleUI_100,
+                    width: double.infinity,
+                    child: Text(
+                      AppStringsUI.AUFmessage,
+                      style: FrontUI.fonts_16,
+                      textAlign: TextAlign.center,
+                    ),
                   ),
                   SizedBox(
                     height: Sizes.tailleUI_10,
                   ),
-                  TextButton(
-                    onPressed: () {
-                      Get.put<LoginController>(LoginController());
-                      var root = MaterialPageRoute(
-                        builder: (context) => LoginViewsUI(),
-                      );
-                      Navigator.of(context).push(root);
-                    },
-                    style: ButtonStyle(
-                      backgroundColor: WidgetStatePropertyAll(AppColorsUI.vert),
-                      iconSize: WidgetStatePropertyAll(Sizes.tailleUI_20),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(
+                          Sizes.tailleUI_5
+                        )
+                      )
                     ),
-                    child: Text(
-                      AppStringsUI.ButtonConnexion,
-                      style: FrontUI.fonts_14,
+                    child: ElevatedButton(
+                      onPressed: () => Get.toNamed(Roote.LOGIN),
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(AppColorsUI.rouge),
+                        iconSize: WidgetStatePropertyAll(Sizes.tailleUI_20),
+                      ),
+                      child: Text(
+                        AppStringsUI.ButtonConnexion,
+                        style: FrontUI.Button,
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -81,17 +88,21 @@ class HomeViewsUI extends GetView<HomeController> {
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
-                          width: Sizes.tailleUI_2, color: AppColorsUI.rouge),
+                         width: Sizes.tailleUI_2, color: AppColorsUI.rouge
+                      ),
+                      
                     ),
                     child: TextButton(
-                        onPressed: () {
-                          Get.put<InscriptionController>(InscriptionController());
-                          Get.to(() => InscriptionViewsUI());
-                        },
+                        onPressed: () => Get.toNamed(Roote.INSCRIPTION),
+                        style: ButtonStyle(
+                          backgroundColor: WidgetStatePropertyAll(
+                            AppColorsUI.BLANK
+                          )
+                        ),
                         child: Text(
                           AppStringsUI.InscriptionButton,
                           style:TextStyle(
-                            backgroundColor: Colors.transparent,
+                           color: AppColorsUI.rouge
                           )
                         )
                       ),

@@ -14,6 +14,12 @@ abstract class Roote {
   static const BRIEFTROIS = _Paths.BRIEFTROIS;
   static const ADDFAVORIS = _Paths.ADDFAVORIS;
   static const LISTEFAVORIS = _Paths.LISTEFAVORIS;
+  static const LISTEDITEUR = _Paths.LISTEDITEUR;
+  static const PROFIL = _Paths.PROFIL;
+  static const HISTORIQUE = _Paths.HISTORIQUE;
+  static const BRIEFQUATRE = _Paths.BRIEFQUATRE;
+  static const STAR = _Paths.START;
+  static const DETAIL = _Paths.DETAIL;
 }
 
 //Chemins relatives
@@ -30,4 +36,10 @@ abstract class _Paths {
   static const BRIEFTROIS = "/Brieftrois";
   static const ADDFAVORIS = "/Addfavoris";
   static const LISTEFAVORIS = "/Listefavoris";
+  static const PROFIL = "/Profil";
+  static const BRIEFQUATRE = "/Briefquatre";
+  static const LISTEDITEUR = "/Listediteur";
+  static const START = "/Start";
+  static const HISTORIQUE = "/Historique";
+  static const DETAIL = "/Details";
 }

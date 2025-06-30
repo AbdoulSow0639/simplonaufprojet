@@ -37,13 +37,13 @@ class BrieftroisViewsUI extends GetView<BrieftroisController> {
                   margin: EdgeInsets.all(Sizes.tailleUI_5),
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                    image: AssetImage(AppImagesUI.MAP),
+                    image: AssetImage(AppImagesUI.MAP1),
                     fit: BoxFit.cover,
                   )),
                 ),
                 SizedBox(height: Sizes.tailleUI_10,),
                 Container(
-                  padding: EdgeInsets.all(Sizes.tailleUI_5),
+                  padding: EdgeInsets.all(Sizes.tailleUI_10),
                   margin: EdgeInsets.all(Sizes.tailleUI_5),
                   width: double.infinity,
                   decoration: BoxDecoration(

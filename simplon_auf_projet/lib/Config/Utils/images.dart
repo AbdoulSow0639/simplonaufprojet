@@ -1,8 +1,8 @@
 part of values;
 
 class AppImagesUI {
-  static const String imgPaths = "assets/images/";
-  static const String iconPath = "assets/icones/";
+  static const String imgPaths = "assets/images";
+  static const String iconPath = "assets/icones";
 
   static const String logo = "$iconPath/main.jpg";
   static const String AUF = "$iconPath/AUF.png";
@@ -13,4 +13,6 @@ class AppImagesUI {
       "$imgPaths/infirmier-travaillant-a-la-clinique.jpg";
   static const String MAP = "$imgPaths/map1.jpeg";
   static const String MAP1 = "$imgPaths/map5.png";
+  static const String AddToCard = "$iconPath/add-to-cart.png";
+  static const String ScreenPlay = "$iconPath/screen-play.svg";
 }

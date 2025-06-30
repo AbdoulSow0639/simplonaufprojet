@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Config/Utils/values.dart';
 import 'package:simplon_auf_projet/Modules/Welcome/Controller/welcome_controller.dart';
+import 'package:simplon_auf_projet/Modules/Widgets/abou_shimmer.dart';
 
 class WelcomeViewsUI extends GetView<WelcomeController> {
+  bool val = true;
 
   @override
   Widget build(BuildContext context) {
@@ -28,28 +30,29 @@ class WelcomeViewsUI extends GetView<WelcomeController> {
           ],
           backgroundColor: Colors.deepPurple,
         ),
-
         body: SingleChildScrollView(
-          child: Container(
+          child: val == true ? Column(
+            children: [
+              AbouShimmer(),
+              SizedBox(height: Sizes.tailleUI_10,),
+              AbouShimmer()
+            ],
+          ):
+          Container(
             width: double.infinity,
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             margin: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
             decoration: BoxDecoration(
               border: Border.all(
-                width: 2, 
+                width: 2,
                 color: AppColorsUI.LightBlueAccent,
               ),
-              
             ),
-
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-               
-              ],
+              children: [],
             ),
           ),
-        )
-      );
+        ));
   }
 }

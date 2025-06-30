@@ -1,6 +1,12 @@
 import 'package:get/get.dart';
 
 class AboutController extends GetxController {
+  var currenteIndex = 0.obs;
+
+  // methode pour charger d'onglet
+  void changeTabIndex(int index) {
+    currenteIndex.value = index;
+  }
 
   @override
   void onInit() {

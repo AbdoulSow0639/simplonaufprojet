@@ -10,4 +10,5 @@ class AppColorsUI {
   static const Color BLANK = Colors.white;
   static const Color DeepPurple = Colors.deepPurple;
   static const Color LightBlueAccent = Colors.lightBlueAccent;
+  static const Color backgroundColor = Colors.grey;
 }

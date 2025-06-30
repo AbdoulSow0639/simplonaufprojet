@@ -8,5 +8,7 @@ class ListefavorisBinding extends Bindings {
     Get.put<ListefavorisController>(
       ListefavorisController()
     );
+
+    // Get.lazyPut<ListefavorisController>(() => ListefavorisController(),);
   }
 }
