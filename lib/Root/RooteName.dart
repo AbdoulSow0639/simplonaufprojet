@@ -15,6 +15,12 @@ abstract class Rootes {
   static const BRIEFTROIS = _Paths.BRIEFTROIS;
   static const ADDFAVORIS = _Paths.ADDFAVORIS;
   static const LISTEFAVORIS = _Paths.LISTEFAVORIS;
+  static const BRIEFQUATRE = _Paths.BRIEFQUATRE;
+  static const START = _Paths.START;
+  static const LISTEDITEUR = _Paths.LISTEDITEUR;
+  static const PROFIL = _Paths.PROFIL;
+  static const HISTORIQUE = _Paths.HISTORIQUE;
+  static const LYLY = _Paths.LYLY;
 }
 
 abstract class _Paths {
@@ -32,4 +38,11 @@ abstract class _Paths {
   static const BRIEFTROIS = '/Brieftrois';
   static const ADDFAVORIS = '/Addfavoris';
   static const LISTEFAVORIS = '/Listefavoris';
+  static const BRIEFQUATRE = '/Briefquatre';
+  static const START = '/Start';
+  static const LISTEDITEUR = '/ListEditeur';
+  static const PROFIL = '/Profil';
+  static const HISTORIQUE = '/Historique';
+  static const LYLY = '/lyly4';
+ 
 }

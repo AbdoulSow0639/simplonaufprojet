@@ -1,11 +1,12 @@
 import 'package:get/get.dart';
 
-class ContactController extends GetxController {
-    var currenteIndex = 0.obs;
+class BriefquatreController extends GetxController {
+  var currenteIndex = 0.obs;
 
-    void changeTabIndex(int i ){
-      currenteIndex.value = i;
-    }
+  void changeTabIndex(int i) {
+    currenteIndex.value = i;
+  }
+
   @override
   void onInit() {
     // TODO: implement onInit

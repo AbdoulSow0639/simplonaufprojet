@@ -6,6 +6,11 @@ class FrontUI {
     color: AppColorTP1.Red,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle fronts_b = TextStyle(
+    fontSize: 14,
+    color: Color.fromARGB(255, 7, 152, 243),
+    fontWeight: FontWeight.bold,
+  );
 
   static const TextStyle login = TextStyle(
     fontSize: 25,
@@ -22,6 +27,21 @@ class FrontUI {
   static const TextStyle fonts_14s = TextStyle(
     color: Color.fromARGB(255, 255, 253, 253),
     fontSize: Sizes.tailleUI_10,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle fonts_14ss = TextStyle(
+    color: Color.fromARGB(255, 255, 253, 253),
+    fontSize: Sizes.tailleUI_20,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle fonts_14sss = TextStyle(
+    color: Color.fromARGB(255, 12, 12, 12),
+    fontSize: Sizes.tailleUI_10,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle fonts_14sss0 = TextStyle(
+    color: Color.fromARGB(255, 12, 12, 12),
+    fontSize: Sizes.tailleUI_20,
     fontWeight: FontWeight.bold,
   );
 

@@ -1,11 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class ContactController extends GetxController {
-    var currenteIndex = 0.obs;
-
-    void changeTabIndex(int i ){
-      currenteIndex.value = i;
-    }
+class StartController extends GetxController {
+  TextEditingController mailController = TextEditingController();
+  TextEditingController mdpController = TextEditingController();
+  final formkey = GlobalKey<FormState>();
+  
   @override
   void onInit() {
     // TODO: implement onInit

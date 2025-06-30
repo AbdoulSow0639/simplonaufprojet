@@ -6,6 +6,8 @@ import 'package:simplon_auf_projet/confi/Utils/values.dart';
 class AddfavorisViewsUI extends GetView<AddfavorisController> {
   @override
   Widget build(BuildContext context) {
+    var datas = Get.arguments;
+    print(datas);
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
@@ -27,6 +29,10 @@ class AddfavorisViewsUI extends GetView<AddfavorisController> {
           child: Center(
             child: Column(
               children: [
+                SizedBox(height: Sizes.tailleUI_16,),
+                Text(datas[1]['Quartier'], style: FrontUI.fonts_14sss,),
+                SizedBox(height: Sizes.tailleUI_16,),
+                Text(datas[2]['Secteur'], style: FrontUI.fonts_14sss,),
                 Form(
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: Sizes.tailleUI_10),

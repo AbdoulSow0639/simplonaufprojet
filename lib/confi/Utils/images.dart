@@ -22,4 +22,8 @@ class ImgTP {
   static const String map2 = "$imgPaths/map2.jpg";
   static const String map3= "$imgPaths/map3.jpg";
   static const String map4= "$imgPaths/map4.jpg";
+  static const String chef= "$imgPaths/chef.jpg";
+  static const String sport= "$imgPaths/sport.jpg";
+  static const String techno= "$imgPaths/techno.jpg";
+  static const String business= "$imgPaths/business.jpg";
 }
