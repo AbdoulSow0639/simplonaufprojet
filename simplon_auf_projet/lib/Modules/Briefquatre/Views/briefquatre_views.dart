@@ -18,13 +18,16 @@ class BriefquatreViewsUI extends GetView<BriefquatreController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(automaticallyImplyLeading: false,),
       backgroundColor: Colors.grey[100],
       body: Obx(() => pages[controller.currentIndex.value]),
       bottomNavigationBar: Obx(
         () => BottomNavigationBar(
           currentIndex: controller.currentIndex.value,
           selectedItemColor: AppColorsUI.bleu,
-          unselectedItemColor: AppColorsUI.backgroundColor,
+          unselectedItemColor: AppColorsUI.rouge,
+          unselectedLabelStyle: TextStyle(color: AppColorsUI.noir),
+          showSelectedLabels: true,
           onTap: controller.changePage,
           items: [
             BottomNavigationBarItem(

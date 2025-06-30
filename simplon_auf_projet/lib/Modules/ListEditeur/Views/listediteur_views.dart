@@ -10,6 +10,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: AppColorsUI.rouge,
         centerTitle: true,
         title: Text(
@@ -161,7 +162,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
                         CircleAvatar(
                           radius: Sizes.tailleUI_50,
                           backgroundImage: AssetImage(
-                            AppImagesUI.infirmier
+                            AppImagesUI.AddToCard
                           ),
                         ),
                         Text(AppStringsUI.Editeur2),
@@ -189,7 +190,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
                         CircleAvatar(
                           radius: Sizes.tailleUI_50,
                           backgroundImage: AssetImage(
-                            AppImagesUI.MAP
+                            AppImagesUI.AddToCard
                           ),
                         ),
                         Text(AppStringsUI.Editeur3),
@@ -226,7 +227,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
                             AppImagesUI.profil
                           ),
                         ),
-                        Text(AppStringsUI.Editeur1),
+                        Text(AppStringsUI.REDACT1),
                         SizedBox(height: Sizes.tailleUI_5,),
                         Text(AppStringsUI.Article1)
                       ],
@@ -253,7 +254,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
                             AppImagesUI.infirmier
                           ),
                         ),
-                        Text(AppStringsUI.Editeur2),
+                        Text(AppStringsUI.REDACT2),
                         SizedBox(height: Sizes.tailleUI_5,),
                         Text(AppStringsUI.Article2)
                       ],
@@ -281,7 +282,7 @@ class ListediteurViewsUI extends GetView<ListediteurController> {
                             AppImagesUI.logo
                           ),
                         ),
-                        Text(AppStringsUI.Editeur3),
+                        Text(AppStringsUI.REDACT3),
                         SizedBox(height: Sizes.tailleUI_5,),
                         Text(AppStringsUI.Article3)
                       ],
