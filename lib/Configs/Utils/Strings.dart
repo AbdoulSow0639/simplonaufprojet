@@ -123,5 +123,33 @@ class AppStrings {
   static const String P_Ae = "Ajouter un editeur";
   static const String P_Ar = "Ajouter un redacteur";
   static const String P_D = "Déconnection";
+  static const String Br5_F = "Facebook";
+  static const String Br5_H = "Fil D'actu";
+  static const String Br5_A = "Amis";
+  static const String Br5_C = "Contact";
+  static const String Br5_V = "Video";
+  static const String Br5_N = "Notification";
+  static const String Br5_M = "Market";
+  static const String Br5_P = "Profil";
+  static const String Br5_PN = "Mariam Bailo Diallo";
+  static const String Br5_PS = "Publié à 14h";
+  static const String Br5_Fo = "Suivre";
+  static const String Br5_L = "Like";
+  static const String Br5_Co = "Comment";
+  static const String Br5_S = "Send";
+  static const String Br5_Sh = "Share";
+  static const String Br5_FR = "Friends";
+  static const String Br5_T1 = "Republie si tu crois que";
+  static const String Br5_T2 = "Orange connexion est chère en Guinée";
+  static const String Br5_E1 = "65 online";
+  static const String Br5_E2 = "Suggestions";
+  static const String Br5_E3 = "Your friends";
+  static const String Br5_S1 = "Friend requests 68";
+  static const String Br5_PT = "453 mutual friends ° 10w";
+  static const String Br5_S2 = "See All";
+  static const String Br5_PC = "Confirm";
+  static const String Br5_PD = "Delete";
+
+
   
 }

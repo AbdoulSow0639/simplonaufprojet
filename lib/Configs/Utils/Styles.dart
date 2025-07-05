@@ -105,6 +105,16 @@ class StylesUI {
     color: Colors.black,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle F_R1 = TextStyle(
+    fontSize: 16,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle F_R2 = TextStyle(
+    fontSize: 16,
+    color: Colors.blueAccent,
+    fontWeight: FontWeight.bold,
+  );
 
   static const TextStyle P = TextStyle(
     color: Colors.black,
@@ -114,6 +124,32 @@ class StylesUI {
 
   static const TextStyle P_B = TextStyle(
     fontSize: 18,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br5_F = TextStyle(
+    fontSize: 24,
+    color: Colors.blueAccent,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br5_B = TextStyle(
+    fontSize: 18,
+    color: Colors.blueAccent,
+    fontWeight: FontWeight.bold,
+  );
+  
+  static const TextStyle Br5_R = TextStyle(fontSize: 18,
+    color: Colors.grey,
+  );
+
+  static const TextStyle Br5_FR = TextStyle(
+    fontSize: 24,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br5_EB = TextStyle(
+    fontSize: 16,
     color: Colors.white,
     fontWeight: FontWeight.bold,
   );

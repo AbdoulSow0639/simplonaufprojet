@@ -16,6 +16,7 @@ static const IMGMap = "$ImgPaths/map.jpg";
   static const IMG_R = "$ImgPaths/Right.jpg";
   static const IMG_C = "$ImgPaths/Cont.jpg";
   static const IMG_LI = "$ImgPaths/List.jpg";
+  static const IMG_O = "$ImgPaths/Orange.jpg";
   //Image Map
   
   static const ICON = "$IconPaths/logo.jpg";

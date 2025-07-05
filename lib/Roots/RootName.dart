@@ -22,6 +22,7 @@ abstract class Rootes {
   static const EDITEUR = _Paths.EDITEUR;
   static const HISTORIQUE = _Paths.HISTORIQUE;
   static const PROFIL = _Paths.PROFIL;
+  static const BRIEFCINQ = _Paths.BRIEFCINQ;
 }
 
 //Le Chemin Absolu
@@ -46,4 +47,5 @@ abstract class _Paths {
   static const EDITEUR = "/Editeur";
   static const HISTORIQUE = "/Historique";
   static const PROFIL = "/Profil";
+  static const BRIEFCINQ = "/Briefcinq";
 }
