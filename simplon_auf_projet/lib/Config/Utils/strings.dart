@@ -100,4 +100,30 @@ class AppStringsUI {
   static const REDACT4 = "Redacteur 4";
   static const REDACT5 = "Redacteur 5";
   static const REDACT6 = "Redacteur 6";
+  static const Facebook = "Facebook";
+  static const AUF = "AUF Guinée";
+  static const Expression = "Exprimez vous ici ...";
+  static const Nouvellepub1 = "Entrez votre publication ici";
+  static const Nouvellepub = "Nouvelle publication";
+  static const Amie = "Ami(e)s";
+  static const Enligne = "En ligne";
+  static const DevFlutter =
+      "Bonjour, je suis debutant en Dev mobile avec flutter";
+  static const Liker = "Liker";
+  static const Commentaire = "Commentaire";
+  static const Partager = "Partager";
+  static const Medecin = "Bonjour je suis medecin ................,";
+  static const UtiliserFlutter =
+      "Utilisez l'application de developper en flutter,";
+  static const Map = "Map";
+  static const Salut = "Salut";
+  static const Suggestion = "Suggestions";
+  static const VosAmis = "Vos amis";
+  static const inv = "Invitations";
+  static const vt = "Voir tout";
+  static const ac = "ami(e)s en commun";
+  static const confirmer = "Confirmer";
+  static const supprimer = "Supprimer";
+  static const ajouter = "Ajouter";
+  static const pc = "Personnes que vous pourriez connaître";
 }

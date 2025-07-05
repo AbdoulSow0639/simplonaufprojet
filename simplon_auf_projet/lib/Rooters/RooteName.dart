@@ -20,6 +20,7 @@ abstract class Roote {
   static const BRIEFQUATRE = _Paths.BRIEFQUATRE;
   static const STAR = _Paths.START;
   static const DETAIL = _Paths.DETAIL;
+  static const BRIEFCINQ = _Paths.BRIEFCINQ;
 }
 
 //Chemins relatives
@@ -42,4 +43,5 @@ abstract class _Paths {
   static const START = "/Start";
   static const HISTORIQUE = "/Historique";
   static const DETAIL = "/Details";
+  static const BRIEFCINQ = "/Briefcinq";
 }

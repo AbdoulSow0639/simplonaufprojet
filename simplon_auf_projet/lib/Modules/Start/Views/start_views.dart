@@ -10,6 +10,7 @@ class StartViewsUI extends GetView<StartController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: AppColorsUI.rouge,
       ),
       backgroundColor: Color.fromARGB(255, 28, 0, 41),

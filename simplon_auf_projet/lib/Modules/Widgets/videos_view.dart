@@ -1,15 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:simplon_auf_projet/Config/Utils/values.dart';
 
-class VideosView extends StatefulWidget {
-  const VideosView({super.key});
+class VideosViewUI extends StatefulWidget {
+  const VideosViewUI({super.key});
 
   @override
-  State<VideosView> createState() => _VideosViewState();
+  State<VideosViewUI> createState() => _VideosViewUIState();
 }
 
-class _VideosViewState extends State<VideosView> {
+class _VideosViewUIState extends State<VideosViewUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: AppColorsUI.BLANK,
+      body: ListView(
+        children: [
+          Container(
+            child: Column(
+              children: [
+                Text("Vides")
+              ],
+            ),
+          )
+        ],
+      ),
+    );
   }
 }

@@ -9,6 +9,7 @@ class DetailViewsUI extends GetView<DetailController> {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: AppColorsUI.rouge,
           iconTheme: IconThemeData(color: AppColorsUI.BLANK),
           centerTitle: true,
