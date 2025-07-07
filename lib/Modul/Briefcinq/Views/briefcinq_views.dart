@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:simplon_auf_projet/Modul/Service/Controller/service_controller.dart';
+import 'package:simplon_auf_projet/Modul/Briefcinq/Controller/briefcinq_controller.dart';
 import 'package:simplon_auf_projet/Modul/Widget/amis.dart';
+import 'package:simplon_auf_projet/Modul/Widget/amis_facebook.dart';
+import 'package:simplon_auf_projet/Modul/Widget/business_facebook.dart';
 import 'package:simplon_auf_projet/Modul/Widget/fil_d_actualite.dart';
+import 'package:simplon_auf_projet/Modul/Widget/fil_facebook.dart';
+import 'package:simplon_auf_projet/Modul/Widget/notification_facebook.dart';
 import 'package:simplon_auf_projet/Modul/Widget/notifications.dart';
 import 'package:simplon_auf_projet/Modul/Widget/profil.dart';
+import 'package:simplon_auf_projet/Modul/Widget/profil_facebook.dart';
 import 'package:simplon_auf_projet/Modul/Widget/video.dart';
+import 'package:simplon_auf_projet/Modul/Widget/video_facebook.dart';
 import 'package:simplon_auf_projet/confi/Utils/values.dart';
 
-class ServiceViews extends GetView<ServiceController> {
-  const ServiceViews({super.key});
+class BriefcinqViewsUI extends GetView<BriefcinqController> {
+  const BriefcinqViewsUI({super.key});
 
 
   @override
@@ -19,7 +24,7 @@ class ServiceViews extends GetView<ServiceController> {
       length: 5, 
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Facebook"),
+         title: Text("Facebook"), 
           actions: [
             Icon(Icons.add),
             SizedBox(width: Sizes.tailleUI_14,),
@@ -28,8 +33,8 @@ class ServiceViews extends GetView<ServiceController> {
             Icon(Icons.messenger_outline_rounded),
             SizedBox(width: Sizes.tailleUI_14,),
           ],
-        backgroundColor: const Color.fromARGB(255, 250, 248, 248),
-        bottom: TabBar(
+          backgroundColor: const Color.fromARGB(255, 250, 248, 248),
+          bottom: TabBar(
           tabs: [
             Tab(
               icon: Icon(Icons.public),
@@ -37,11 +42,11 @@ class ServiceViews extends GetView<ServiceController> {
             ),
             Tab(
               icon: Icon(Icons.tv),
-              text: "Vidéo",
+              text: "Amis",
             ),
             Tab(
               icon: Icon(Icons.supervised_user_circle),
-              text: "Amis",
+              text: "Vidéo",
             ),
             Tab(
               icon: Icon(Icons.notifications),
@@ -51,20 +56,24 @@ class ServiceViews extends GetView<ServiceController> {
               icon: Icon(Icons.person),
               text: "Profil",
             ),
-            
+            Tab(
+              icon: Icon(Icons.add_business),
+              text: "Bus",
+            ),
           ]
         ),
-      ),
-      body: TabBarView(
+        ),
+        body: TabBarView(
         children: [
-          FilDActualiteUI(),
-          VideoUI(),
-          AmisUI(),
-          NotificationsUI(),
-          ProfilUI(),
+          FilFacebookUI(),
+          AmisFacebookUI(),
+          VideoFacebookUI(),
+          NotificationFacebookUI(),
+          ProfilFacebookUI(),
+          BusinessFacebookUI(),
         ]
       ),
-      ),
+      )
     );
   }
 }

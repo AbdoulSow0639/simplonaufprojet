@@ -2,6 +2,8 @@ import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:simplon_auf_projet/Modul/About/Views/about_views.dart';
 import 'package:simplon_auf_projet/Modul/Addfavoris/Binding/addfavoris_binding.dart';
 import 'package:simplon_auf_projet/Modul/Addfavoris/Views/addfavoris_views.dart';
+import 'package:simplon_auf_projet/Modul/Briefcinq/Binding/briefcinq_binding.dart';
+import 'package:simplon_auf_projet/Modul/Briefcinq/Views/briefcinq_views.dart';
 import 'package:simplon_auf_projet/Modul/Briefdeux/Binding/briefdeux_binding.dart';
 import 'package:simplon_auf_projet/Modul/Briefdeux/Views/briefdeux_views.dart';
 import 'package:simplon_auf_projet/Modul/Briefquatre/Binding/briefquatre_binding.dart';
@@ -40,7 +42,7 @@ part "RooteName.dart";
 class Rootespage {
   Rootespage._();
 
-  static const INITIAL = Rootes.BRIEFQUATRE;
+  static const INITIAL = Rootes.BRIEFCINQ;
   static final root = [
     GetPage(name: _Paths.HOME, 
     page: () => HomeViews(), 
@@ -61,6 +63,14 @@ class Rootespage {
       binding: ContactBinding()//BrieftroisBinding(),
 
     ),
+    
+    GetPage(
+      name: _Paths.BRIEFCINQ, 
+      page: () => BriefcinqViewsUI(),
+      binding: BriefcinqBinding()
+
+    ),
+    
 
     GetPage(
       name: _Paths.ADDFAVORIS, 

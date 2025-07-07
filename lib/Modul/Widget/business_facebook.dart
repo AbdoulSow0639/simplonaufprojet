@@ -1,24 +1,23 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:simplon_auf_projet/confi/Utils/values.dart';
 
-class ProfilUI extends StatefulWidget {
-  const ProfilUI({super.key});
+class BusinessFacebookUI extends StatefulWidget {
+  const BusinessFacebookUI({super.key});
 
   @override
-  State<ProfilUI> createState() => _ProfilUIState();
+  State<BusinessFacebookUI> createState() => _BusinessFacebookUIState();
 }
 
-class _ProfilUIState extends State<ProfilUI> {
+class _BusinessFacebookUIState extends State<BusinessFacebookUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Profil"),
+        title: Text("Business"),
         backgroundColor: AppColorTP1.DeepOrange,
       ),
       body: Center(
-        child: Text("Profil"),
+        child: Text("Business"),
       ),
     );
   }

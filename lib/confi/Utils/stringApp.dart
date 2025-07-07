@@ -58,6 +58,10 @@ class StringApp {
   static const String UJNKD = "05/03/2025";
   static const String KP = "Kipé";
   static const String KPD = "03/03/2025";
+  static const String Aqpv = "A quoi pensez-vous ?";
+  static const String NPC = "Oumar Sy Savane";
+  static const String Ift = "L'informatique facilite l'accès à l'information, automatise les tâches complexes et transforme les idées en solutions concrètes pour améliorer notre quotidien.";
+
   
 
 }
