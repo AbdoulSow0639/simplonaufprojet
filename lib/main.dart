@@ -11,11 +11,6 @@ void main() {
       initialRoute: RootPage.INITIAL,
       getPages: RootPage.root,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        appBarTheme: AppBarTheme(
-          backgroundColor: Couleurs.CouleurRouge,
-        ),
-      ),
     ),
   );
 }

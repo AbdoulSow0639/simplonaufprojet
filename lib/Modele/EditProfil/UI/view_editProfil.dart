@@ -18,13 +18,13 @@ class ViewEditprofil extends GetView<EditprofilBinding> {
         padding: EdgeInsets.all(16),
         child: Center(
           child: Form(
-            //key: controller.formKey, 
+            //key: controller.formKey,
             child: Column(
               children: [
                 Text(Renseignement.NOM),
                 SizedBox(height: Taille.SIZE_20),
                 TextFormField(
-                 // controller: controller.nomController,
+                  // controller: controller.nomController,
                   validator: (value) {
                     if (value!.isEmpty) {
                       return Renseignement.message_Nom;
@@ -88,8 +88,8 @@ class ViewEditprofil extends GetView<EditprofilBinding> {
                 SizedBox(
                   width: 20,
                   child: ElevatedButton(
-                    onPressed: (){},
-                   child: Text(Renseignement.soumettre),
+                    onPressed: () {},
+                    child: Text(Renseignement.soumettre),
                   ),
                 ),
               ],
