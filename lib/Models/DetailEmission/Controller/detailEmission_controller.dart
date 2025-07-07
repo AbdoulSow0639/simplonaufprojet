@@ -1,12 +1,6 @@
 import 'package:get/get.dart';
 
-class  Contactcontroller extends GetxController{
-
-  var indexPage = 0.obs; // pour rendre l'index dynamique
-
-  void changePage (int index){
-    indexPage.value = index;
-  }
+class DetailemissionController extends GetxController{
 
   @override
   void onInit() {

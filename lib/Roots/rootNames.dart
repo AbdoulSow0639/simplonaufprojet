@@ -9,6 +9,10 @@ abstract class CheminRelatifs {
   static const CONTACT =  CheminAbsolus.CONTACT;
   static const SERVICE =  CheminAbsolus.SERVICE;
   static const BRIEFUN = CheminAbsolus.BRIEFUN;
+  static const BRIEFDEUX = CheminAbsolus.BRIEFDEUX;
+  static const BRIEFCINQ = CheminAbsolus.BRIEFCINQ;
+  static const DETAILEMISSION = CheminAbsolus.DETAILEMISSION;
+  static const EDITPROFIL = CheminAbsolus.EDITPROFIL;
 
 }
 
@@ -21,5 +25,9 @@ abstract class CheminAbsolus {
   static const CONTACT = '/Contact';
   static const SERVICE = '/Service';
   static const BRIEFUN = '/Briefun';
+  static const BRIEFDEUX = '/Briefdeux';
+  static const BRIEFCINQ = '/BriefCinq';
+  static const DETAILEMISSION = '/DetailEmission';
+  static const EDITPROFIL = '/EditProfil';
 
 }

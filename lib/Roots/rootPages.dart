@@ -1,12 +1,20 @@
-import 'package:get/get_navigation/get_navigation.dart';
-import 'package:simplon_auf_projet/Models/Accueil/Binding/AccueilBinding.dart';
+import 'package:get/get.dart';
+// import 'package:simplon_auf_projet/Models/Accueil/Binding/AccueilBinding.dart';
 import 'package:simplon_auf_projet/Models/Accueil/View/viewAccueil.dart';
 import 'package:simplon_auf_projet/Models/Blog/Binding/blogBinding.dart';
 import 'package:simplon_auf_projet/Models/Blog/View/blogView.dart';
-import 'package:simplon_auf_projet/Models/Briefun/Binding/briefun_binding.dart';
+import 'package:simplon_auf_projet/Models/BriefCinq/Binding/briefCinq_binding.dart';
+import 'package:simplon_auf_projet/Models/BriefCinq/View/briefCinq_view.dart';
+import 'package:simplon_auf_projet/Models/Briefdeux/Binding/briefdeux_binding.dart';
+import 'package:simplon_auf_projet/Models/Briefdeux/View/briefdeux_view.dart';
+// import 'package:simplon_auf_projet/Models/Briefun/Binding/briefun_binding.dart';
 import 'package:simplon_auf_projet/Models/Briefun/View/briefun_view.dart';
 import 'package:simplon_auf_projet/Models/Contact/Binding/contactBinding.dart';
 import 'package:simplon_auf_projet/Models/Contact/View/contactView.dart';
+import 'package:simplon_auf_projet/Models/DetailEmission/Binding/detailEmission_binding.dart';
+import 'package:simplon_auf_projet/Models/DetailEmission/View/detailEmission_view.dart';
+import 'package:simplon_auf_projet/Models/EditProfil/Binding/editProfil_binding.dart';
+import 'package:simplon_auf_projet/Models/EditProfil/View/editProfil_view.dart';
 import 'package:simplon_auf_projet/Models/Service/Binding/serviceBinding.dart';
 import 'package:simplon_auf_projet/Models/Service/View/serviceView.dart';
 
@@ -14,20 +22,20 @@ part 'rootNames.dart';
 
 class Interfaces {
 
-  static const INITIAL = CheminRelatifs.BRIEFUN;
+  static const INITIAL = CheminRelatifs.BRIEFCINQ;
 
   static final root = [
 
     GetPage(
       name: CheminAbsolus.BRIEFUN,
       page: () => BriefunViewUI() ,
-      binding: BriefunBinding() 
+      binding: Contactbinding() //BriefunBinding() 
     ),
     
     GetPage(
       name: CheminAbsolus.ACCUEIL,
       page: () => ViewaccueilUI() ,
-      binding: Accueilbinding() 
+      binding: Contactbinding() //Accueilbinding() 
     ),
 
     GetPage(
@@ -46,6 +54,32 @@ class Interfaces {
       name: CheminAbsolus.SERVICE,
       page: () => ServiceviewUI(),
       binding: Servicebinding()
-    )
+    ),
+
+    GetPage(
+      name: CheminAbsolus.BRIEFDEUX,
+      page: () => BriefdeuxViewUI(),
+      binding: BriefdeuxBinding()
+    ),
+
+    GetPage(
+      name: CheminAbsolus.DETAILEMISSION,
+      page: () => DetailemissionViewUI(),
+      binding: DetailemissionBinding()
+    ),
+
+    GetPage(
+      name: CheminAbsolus.EDITPROFIL,
+      page: () => EditprofilsViewUI(),
+      binding: EditprofilsBindings()
+    ),
+
+    GetPage(
+      name: CheminAbsolus.BRIEFCINQ,
+      page: () => BriefcinqViewUI(),
+      binding: BriefcinqBinding()
+    ),
+
+    
   ];
 }

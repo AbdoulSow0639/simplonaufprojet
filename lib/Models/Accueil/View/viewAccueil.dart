@@ -8,14 +8,14 @@ class ViewaccueilUI extends GetView {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: SingleChildScrollView(  
         child: Container(
           // height:800,
           width: double.infinity,
           padding: EdgeInsets.symmetric(horizontal: 10,vertical: 90),
           margin: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
           decoration: BoxDecoration(
-            border: Border.all(width: 2,color: Colors.blue)
+            border: Border.all(width: 10,color: Colors.blue)
           ),
           child: Column(
             children: [
@@ -240,10 +240,10 @@ class ViewaccueilUI extends GetView {
                   ),
                 ),
               )
-
-
               
             ],
+
+
           ),
         ),
       ),
