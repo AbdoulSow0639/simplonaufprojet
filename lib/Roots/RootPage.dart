@@ -9,6 +9,8 @@ import 'package:simplon_auf_projet/Modeles/Briefdeux/Binding/briefdeux_binding.d
 import 'package:simplon_auf_projet/Modeles/Briefdeux/Views/briefdeux_views.dart';
 import 'package:simplon_auf_projet/Modeles/Briefquatre/Binding/Briefquatre_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Briefquatre/Views/Briefquatre_views.dart';
+import 'package:simplon_auf_projet/Modeles/Briefsix/Binding/briefsix_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Briefsix/Views/briefsix_views.dart';
 import 'package:simplon_auf_projet/Modeles/Brieftrois/Binding/brieftrois_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Brieftrois/Views/brieftrois_views.dart';
 import 'package:simplon_auf_projet/Modeles/Briefun/Binding/briefun_binding.dart';
@@ -21,20 +23,18 @@ import 'package:simplon_auf_projet/Modeles/DetailEmission/Binding/detailemission
 import 'package:simplon_auf_projet/Modeles/DetailEmission/Views/detailemission_views.dart';
 import 'package:simplon_auf_projet/Modeles/EditProfil/Binding/editprofil_binding.dart';
 import 'package:simplon_auf_projet/Modeles/EditProfil/Views/editprofil_views.dart';
-import 'package:simplon_auf_projet/Modeles/Editeur/Binding/editeur_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Editeur/Views/editeur_views.dart';
-import 'package:simplon_auf_projet/Modeles/Edith/Binding/edith_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Edith/Views/edith_views.dart';
-import 'package:simplon_auf_projet/Modeles/Historique/Binding/historique_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Historique/Views/historique_views.dart';
 import 'package:simplon_auf_projet/Modeles/Home/Binding/home_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Home/Views/home_views.dart';
 import 'package:simplon_auf_projet/Modeles/Listefavoris/Binding/listefavoris_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Listefavoris/Views/listefavoris_views.dart';
-import 'package:simplon_auf_projet/Modeles/Profil/Binding/profil_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Profil/Views/profil_views.dart';
 import 'package:simplon_auf_projet/Modeles/Start/Binding/start_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Start/Views/start_views.dart';
+import 'package:simplon_auf_projet/Modeles/Start1/Binding/start1_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Start1/Views/start1_views.dart';
 import 'package:simplon_auf_projet/Modeles/Welcome/Binding/welcome_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Welcome/Views/welcome_views.dart';
 
@@ -43,9 +43,8 @@ part 'RootName.dart';
 class Rootpage {
   Rootpage._();
 
-  static const INITIAL = Rootes.BRIEFCINQ;
+  static const INITIAL = Rootes.START1;
   static final root = [
-   
     // Pour About
     GetPage(
       name: _Paths.ABOUT,
@@ -59,7 +58,7 @@ class Rootpage {
       page: () => ContactViewsUI(),
       binding: ContactBinding(),
     ),
-    
+
     //Pour Home
     GetPage(
       name: _Paths.HOME,
@@ -175,6 +174,18 @@ class Rootpage {
       name: _Paths.BRIEFCINQ,
       page: () => BriefcinqViewsUI(),
       binding: BriefcinqBinding(),
+    ),
+    //Pour Briefsix
+    GetPage(
+      name: _Paths.BRIEFSIX,
+      page: () => BriefsixViewsUI(),
+      binding: BriefsixBinding(),
+    ),
+    //Pour Start1
+    GetPage(
+      name: _Paths.START1,
+      page: () => Start1ViewsUI(),
+      binding: Start1Binding(),
     ),
   ];
 }

@@ -23,6 +23,8 @@ abstract class Rootes {
   static const HISTORIQUE = _Paths.HISTORIQUE;
   static const PROFIL = _Paths.PROFIL;
   static const BRIEFCINQ = _Paths.BRIEFCINQ;
+  static const BRIESIX = _Paths.BRIEFSIX;
+  static const START1 = _Paths.START1;
 }
 
 //Le Chemin Absolu
@@ -48,4 +50,6 @@ abstract class _Paths {
   static const HISTORIQUE = "/Historique";
   static const PROFIL = "/Profil";
   static const BRIEFCINQ = "/Briefcinq";
+  static const BRIEFSIX = "/Briefsix";
+  static const START1 = "/Start1";
 }

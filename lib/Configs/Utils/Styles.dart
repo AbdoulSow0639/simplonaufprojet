@@ -153,5 +153,37 @@ class StylesUI {
     color: Colors.white,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle Br6_Gn = TextStyle(
+    fontSize: 33,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br6_SGN = TextStyle(
+    fontSize: 20,
+    color: Colors.grey,
+    fontWeight: FontWeight.bold,
+  );
 
+  static const TextStyle Br6_EB = TextStyle(
+    fontSize: 23,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br6_Gn1 = TextStyle(
+    fontSize: 30,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br6_P = TextStyle(
+    fontSize: 20,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br6_L = TextStyle(
+    fontSize: 17,
+    color: Colors.blueGrey,
+    fontWeight: FontWeight.bold,
+  );
 }

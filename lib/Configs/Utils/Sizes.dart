@@ -42,5 +42,7 @@ class SizedFront {
   static const double SizesUI_600 = 600.0;
   static const double SizesUI_280 = 280.0;
   static const double SizesUI_275 = 275.0;
+  static const double SizesUI_65 = 65.0;
+  static const double SizesUI_55 = 55.0;
   
 }

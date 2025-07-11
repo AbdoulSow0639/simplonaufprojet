@@ -150,6 +150,18 @@ class AppStrings {
   static const String Br5_PC = "Confirm";
   static const String Br5_PD = "Delete";
 
-
-  
+  static const String Br6_GnM = "Gn-Meteo";
+  static const String Br6_SGn = "Application de météo guinéenne qui affiche la météo à temps plein";
+  static const String Br6_C = "Commencer";
+  static const String Br6_GnR = "Gn-Recherche";
+  static const String Br6_V = "Entrer un ville...";
+  static const String Br6_R = "Rechercher";
+  static const String Br6_Cr = "Critère par ville :";
+  static const String Br6_Co = "Conakry";
+  static const String Br6_K = "Kindia";
+  static const String Br6_M = "Mamou";
+  static const String Br6_Me = "Meteo : ";
+  static const String Br6_T = "Temperature : 20 °C";
+  static const String Br6_D = "Description : Nature venteuse";
+ 
 }
