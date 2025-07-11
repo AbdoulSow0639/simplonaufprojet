@@ -7,6 +7,8 @@ import 'package:simplon_auf_projet/Modules/Briefcinq/Binding/briefcinq_binding.d
 import 'package:simplon_auf_projet/Modules/Briefcinq/Views/briefcinq_views.dart';
 import 'package:simplon_auf_projet/Modules/Briefquatre/Binding/briefquatre_binding.dart';
 import 'package:simplon_auf_projet/Modules/Briefquatre/Views/briefquatre_views.dart';
+import 'package:simplon_auf_projet/Modules/Briefsix/Binding/briefsix_binding.dart';
+import 'package:simplon_auf_projet/Modules/Briefsix/Views/briefsix_views.dart';
 import 'package:simplon_auf_projet/Modules/Brieftrois/Binding/brieftrois_binding.dart';
 import 'package:simplon_auf_projet/Modules/Brieftrois/Views/brieftrois_views.dart';
 import 'package:simplon_auf_projet/Modules/Contact/Binding/contact_binding.dart';
@@ -28,6 +30,8 @@ import 'package:simplon_auf_projet/Modules/Login/Views/login_views.dart';
 import 'package:simplon_auf_projet/Modules/Profil/Views/profil_views.dart';
 import 'package:simplon_auf_projet/Modules/Start/Binding/start_binding.dart';
 import 'package:simplon_auf_projet/Modules/Start/Views/start_views.dart';
+import 'package:simplon_auf_projet/Modules/Start2/Binding/start2_binding.dart';
+import 'package:simplon_auf_projet/Modules/Start2/Views/start2_views.dart';
 import 'package:simplon_auf_projet/Modules/Welcome/Binding/welcome_binding.dart';
 import 'package:simplon_auf_projet/Modules/Welcome/Views/welcome_views.dart';
 
@@ -36,7 +40,7 @@ part 'RooteName.dart';
 class RootePage {
   RootePage._();
 
-  static const INITIAL = Roote.BRIEFCINQ;
+  static const INITIAL = Roote.START2;
 
   static final root = [
     GetPage(
@@ -139,6 +143,18 @@ class RootePage {
       name: _Paths.BRIEFCINQ, 
       page: () => BriefcinqViewsUI(),
       binding: BriefcinqBinding()
+    ),
+
+    GetPage(
+      name: _Paths.BRIEFSIX, 
+      page: () => BriefsixViewsUI(),
+      binding: BriefsixBinding()
+    ),
+
+    GetPage(
+      name: _Paths.START2, 
+      page: () => Start2ViewsUI(),
+      binding: Start2Binding()
     ),
   ];
 }

@@ -15,4 +15,9 @@ class AppImagesUI {
   static const String MAP1 = "$imgPaths/map5.png";
   static const String AddToCard = "$iconPath/add-to-cart.png";
   static const String ScreenPlay = "$iconPath/screen-play.svg";
+  static const String Drapeau = "$imgPaths/drapeau.jpg";
+  static const String Device = "$imgPaths/device.jpg";
+  static const String Meteo = "$imgPaths/meteo.jpeg";
+  static const String Meteo2 = "$imgPaths/meteo2.jpeg";
+  static const String Meteo3 = "$imgPaths/meteo3.jpeg";
 }

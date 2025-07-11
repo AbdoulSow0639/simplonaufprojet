@@ -6,8 +6,10 @@ class Sizes {
   static const double tailleUI_12 = 12.0;
   static const double tailleUI_14 = 14.0;
   static const double tailleUI_16 = 16.0;
+  static const double tailleUI_18 = 18.0;
   static const double tailleUI_20 = 20.0;
   static const double tailleUI_50 = 50.0;
+  static const double tailleUI_40 = 40.0;
   static const double tailleUI_55 = 55.0;
   static const double tailleUI_60 = 60.0;
   static const double tailleUI_24 = 24.0;

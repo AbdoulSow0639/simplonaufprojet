@@ -126,4 +126,20 @@ class AppStringsUI {
   static const supprimer = "Supprimer";
   static const ajouter = "Ajouter";
   static const pc = "Personnes que vous pourriez connaître";
+  static const MeteoTexte =
+      "Application du méteo guinéen qui affiche la méteo en temps réel";
+  static const GnMeteo = "Gn-Meteo";
+  static const GnRecherche = "Gn-Recherche";
+  static const Commencer = "Commencer";
+  static const NomVille = "Nom de la ville";
+  static const HintextVille = "Entrez le nom d'une ville";
+  static const Critere = "Critère par villes";
+  static const Conakry = "Conakry";
+  static const Gueckedou = "Gueckedou";
+  static const Mamou = "Mamou";
+  static const Kindia = "Kindia";
+  static const Kankan = "Kankan";
+  static const Meteo = "Méteo";
+  static const Temperature = "Température : 20°C";
+  static const Desctemperature = "Description : La température est .....";
 }
