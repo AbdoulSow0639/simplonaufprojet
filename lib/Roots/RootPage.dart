@@ -16,14 +16,18 @@ import 'package:simplon_auf_projet/Modeles/Home/Views/Home_Views.dart';
 import 'package:simplon_auf_projet/Modeles/Services/Binding/Services_Binding.dart';
 import 'package:simplon_auf_projet/Modeles/Services/Controller/Services_Controller.dart';
 import 'package:simplon_auf_projet/Modeles/Services/Views/Services_Views.dart';
+import 'package:simplon_auf_projet/Modeles/Start/Binding/Start_Binding.dart';
+import 'package:simplon_auf_projet/Modeles/Start/Views/Start_Views.dart';
 import 'package:simplon_auf_projet/Modeles/Welcome/Binding/Welcome_Binding.dart';
 import 'package:simplon_auf_projet/Modeles/Welcome/Views/Welcome_Views.dart';
+import 'package:simplon_auf_projet/Modeles/tabBarPage/Binding/tabBar_binding.dart';
+import 'package:simplon_auf_projet/Modeles/tabBarPage/View/tabBar_view.dart';
 
 part 'RootName.dart';
 
 class Rootpage {
   Rootpage._();
-  static const INITIAL = Rootes.BRIEFDEUX;
+  static const INITIAL = Rootes.START;
   static final root = [
     GetPage(name: Plan.WELCOME,
     page:() => WelcomeViewsUI(), 
@@ -63,6 +67,21 @@ class Rootpage {
       GetPage(name: Plan.DETAILEMISSION,
       page: () => DetailemissionViewsUI(),
       binding: DetailemissionBinding()
+      ),
+
+      GetPage(name: Plan.TABBARPAGE,
+      page: () => TabbarViewUI(),
+      binding: TabbarBinding()
+      ),
+
+      GetPage(name: Plan.START,
+      page: () => StartViewsUI(),
+      binding: StartBinding()
+      ),
+
+      GetPage(name: Plan.BRIEFSIX,
+      page: () => BriefdeuxViewsUI(),
+      binding: BriefdeuxBinding()
       ),
 
     //   GetPage(name: Plan.BRIEFUN,
