@@ -8,6 +8,8 @@ import 'package:simplon_auf_projet/Modul/Briefdeux/Binding/briefdeux_binding.dar
 import 'package:simplon_auf_projet/Modul/Briefdeux/Views/briefdeux_views.dart';
 import 'package:simplon_auf_projet/Modul/Briefquatre/Binding/briefquatre_binding.dart';
 import 'package:simplon_auf_projet/Modul/Briefquatre/Views/briefquatre_views.dart';
+import 'package:simplon_auf_projet/Modul/Briefsix/Binding/briefsix_binding.dart';
+import 'package:simplon_auf_projet/Modul/Briefsix/Views/briefsix_views.dart';
 import 'package:simplon_auf_projet/Modul/Brieftrois/Binding/brieftrois_binding.dart';
 import 'package:simplon_auf_projet/Modul/Brieftrois/Views/brieftrois_views.dart';
 import 'package:simplon_auf_projet/Modul/Contact/Binding/contact_binding.dart';
@@ -34,15 +36,17 @@ import 'package:simplon_auf_projet/Modul/Service/Binding/service_binding.dart';
 import 'package:simplon_auf_projet/Modul/Service/Views/service_views.dart';
 import 'package:simplon_auf_projet/Modul/Start/Binding/start_binding.dart';
 import 'package:simplon_auf_projet/Modul/Start/Views/start_views.dart';
+import 'package:simplon_auf_projet/Modul/Starts/Binding/starts_binding.dart';
+import 'package:simplon_auf_projet/Modul/Starts/Views/starts_views.dart';
 import 'package:simplon_auf_projet/Modul/lyly4/Binding/lyly4_binding.dart';
 import 'package:simplon_auf_projet/Modul/lyly4/Views/lyly4_views.dart';
-
+ 
 part "RooteName.dart";
 
 class Rootespage {
   Rootespage._();
 
-  static const INITIAL = Rootes.BRIEFCINQ;
+  static const INITIAL = Rootes.STARTS;
   static final root = [
     GetPage(name: _Paths.HOME, 
     page: () => HomeViews(), 
@@ -154,6 +158,16 @@ class Rootespage {
       name: _Paths.LYLY,
       page: () => Lyly4ViewsUI(),
       binding: Lyly4Binding(),
+    ),        
+    GetPage(
+      name: _Paths.STARTS,
+      page: () => StartsViewsUI(),
+      binding: StartsBinding(),
+    ),        
+    GetPage(
+      name: _Paths.BRIEFSIX,
+      page: () => BriefsixViewsUI(),
+      binding: BriefsixBinding()
     ),        
   ];
 }

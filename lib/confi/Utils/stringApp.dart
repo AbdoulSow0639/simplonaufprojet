@@ -61,6 +61,14 @@ class StringApp {
   static const String Aqpv = "A quoi pensez-vous ?";
   static const String NPC = "Oumar Sy Savane";
   static const String Ift = "L'informatique facilite l'accès à l'information, automatise les tâches complexes et transforme les idées en solutions concrètes pour améliorer notre quotidien.";
+  static const String Mt1= "Gn-Meteo";
+  static const String t1m= "Application  de meteo guinnéenne";
+  static const String t2m= "qui affiche la météo à temps plein";
+  static const String t3m= "Commencez";
+  static const String t4m= "Gn-Rerchercher";
+  static const String t5m= "Entrer une ville";
+  static const String t6m= "Rechercher";
+  static const String t7m= "Critère par ville";
 
   
 

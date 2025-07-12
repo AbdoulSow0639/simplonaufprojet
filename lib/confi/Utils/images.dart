@@ -26,4 +26,11 @@ class ImgTP {
   static const String sport= "$imgPaths/sport.jpg";
   static const String techno= "$imgPaths/techno.jpg";
   static const String business= "$imgPaths/business.jpg";
+  static const String etat = "$imgPaths/etat.jpg";
+  static const String drapeau = "$imgPaths/drapeau.jpg";
+  static const String meteo1 = "$imgPaths/meteo1.jpg";
+  static const String meteo2 = "$imgPaths/meteo2.jpg";
+  static const String meteo3 = "$imgPaths/meteo3.jpg";
+  static const String meteo5 = "$imgPaths/meteo5.jpg";
+  static const String meteo6 = "$imgPaths/meteo6.jpg";
 }

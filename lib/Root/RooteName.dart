@@ -22,6 +22,8 @@ abstract class Rootes {
   static const HISTORIQUE = _Paths.HISTORIQUE;
   static const LYLY = _Paths.LYLY;
   static const BRIEFCINQ = _Paths.BRIEFCINQ;
+  static const STARTS = _Paths.STARTS;
+  static const BRIEFSIX = _Paths.BRIEFSIX;
 }
 
 abstract class _Paths {
@@ -46,5 +48,7 @@ abstract class _Paths {
   static const HISTORIQUE = '/Historique';
   static const LYLY = '/lyly4';
   static const BRIEFCINQ = '/Briefcinq';
+  static const STARTS = '/Starts';
+  static const BRIEFSIX = '/Briefsix';
  
 }
