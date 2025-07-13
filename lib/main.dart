@@ -10,7 +10,7 @@ void main() {
       initialRoute: Interfaces.INITIAL,
       getPages: Interfaces.root,
       debugShowCheckedModeBanner: false,
-      title: "Facebook",
+      title: "App Meteo",
       
     )
   );

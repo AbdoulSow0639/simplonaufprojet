@@ -41,5 +41,8 @@ class MesDimensions {
   static const double espacementHauteurContainer = 50;
 
   static const double taille1 = 1;
+  static const double taille50 = 50;
+  static const double taille35 = 35;
+  static const double taille17 = 17;
 
 }

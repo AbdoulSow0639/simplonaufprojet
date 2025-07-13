@@ -62,4 +62,22 @@ class MesTextes {
   static const invitation = "Invitations";
   static const amisCommuns = "Vous avez 12 amis en commun";
 
+  static const titreMeteo = "Gn-Meteo";
+  static const descriptionAppMeteo = "Application de météo guinéen qui affiche la météo en temps réel";
+  static const gnRecherche = "Gn-recherche";
+  static const rechercher = "Rechercher";
+  static const ville1 = "Conakry";
+  static const ville2 = "Kindia";
+  static const ville3 = "Mamou";
+  static const ville4 = "Gaoual";
+  static const meteo = "Météo";
+  static const critere = "Critère par ville";
+  static const entrerUneVille = "Entrer une ville";
+  static const chiffreTemperature = "20°C";
+  static const description = "description  : Il fait froid";
+  static const temperature = "temperature : 20°C";
+  static const commencer = "commencer";
+
+
+
 }

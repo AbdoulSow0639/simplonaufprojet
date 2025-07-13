@@ -210,6 +210,8 @@ class _AmisViewuiState extends State<AmisViewui> {
                   children: [
                     CircleAvatar(
                       radius: 30,
+
+                      
                       backgroundImage: AssetImage(MesImages.profilFacebook),
                     ),
 

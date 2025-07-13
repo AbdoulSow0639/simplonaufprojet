@@ -5,6 +5,8 @@ import 'package:simplon_auf_projet/Models/Blog/Binding/blogBinding.dart';
 import 'package:simplon_auf_projet/Models/Blog/View/blogView.dart';
 import 'package:simplon_auf_projet/Models/BriefCinq/Binding/briefCinq_binding.dart';
 import 'package:simplon_auf_projet/Models/BriefCinq/View/briefCinq_view.dart';
+import 'package:simplon_auf_projet/Models/BriefSix/Binding/briefSix_binding.dart';
+import 'package:simplon_auf_projet/Models/BriefSix/View/briefSix_view.dart';
 import 'package:simplon_auf_projet/Models/Briefdeux/Binding/briefdeux_binding.dart';
 import 'package:simplon_auf_projet/Models/Briefdeux/View/briefdeux_view.dart';
 // import 'package:simplon_auf_projet/Models/Briefun/Binding/briefun_binding.dart';
@@ -17,12 +19,14 @@ import 'package:simplon_auf_projet/Models/EditProfil/Binding/editProfil_binding.
 import 'package:simplon_auf_projet/Models/EditProfil/View/editProfil_view.dart';
 import 'package:simplon_auf_projet/Models/Service/Binding/serviceBinding.dart';
 import 'package:simplon_auf_projet/Models/Service/View/serviceView.dart';
+import 'package:simplon_auf_projet/Models/Start/Binding/start_binding.dart';
+import 'package:simplon_auf_projet/Models/Start/View/start_view.dart';
 
 part 'rootNames.dart';
 
 class Interfaces {
 
-  static const INITIAL = CheminRelatifs.BRIEFCINQ;
+  static const INITIAL = CheminRelatifs.START;
 
   static final root = [
 
@@ -78,6 +82,18 @@ class Interfaces {
       name: CheminAbsolus.BRIEFCINQ,
       page: () => BriefcinqViewUI(),
       binding: BriefcinqBinding()
+    ),
+
+    GetPage(
+      name: CheminAbsolus.BRIEFSIX,
+      page: () => BriefsixViewUI(),
+      binding: BriefsixBinding()
+    ),
+
+    GetPage(
+      name: CheminAbsolus.START,
+      page: () => StartViewUI(),
+      binding: StartBinding()
     ),
 
     

@@ -36,5 +36,11 @@ class MesStyles {
     color: MesCouleurs.couleurLogoFacebook,
   );
 
+  static const TextStyle styleTitreMeteo = TextStyle(
+    fontSize: MesDimensions.taille30,
+    fontWeight: FontWeight.bold,
+    color: MesCouleurs.couleurLogoFacebook,
+  );
+
 
 }
