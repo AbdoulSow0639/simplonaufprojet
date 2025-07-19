@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:simplon_auf_projet/Configs/Utils/Values.dart';
 import 'package:simplon_auf_projet/Modeles/Edith/Controller/edith_controller.dart';
+import 'package:simplon_auf_projet/Roots/RootPage.dart';
 
 class EdithViewsUI extends GetView<EdithController> {
   @override
@@ -42,7 +43,7 @@ class EdithViewsUI extends GetView<EdithController> {
                           margin: EdgeInsets.all(SizedFront.SizesUI_10),
                           width: SizedFront.sizesUI_40,
                           height: SizedFront.sizesUI_40,
-                          child: Image.asset(ImagesPaths.IMG_L)
+                          child: Image.asset(ImagesPaths.IMG_L),
                         ),
                         Container(
                           height: SizedFront.sizesUI_40,
@@ -73,7 +74,7 @@ class EdithViewsUI extends GetView<EdithController> {
                           margin: EdgeInsets.all(SizedFront.SizesUI_10),
                           width: SizedFront.sizesUI_40,
                           height: SizedFront.sizesUI_40,
-                          child: Image.asset(ImagesPaths.IMG_R)
+                          child: Image.asset(ImagesPaths.IMG_R),
                         ),
                         Container(
                           height: SizedFront.sizesUI_40,
@@ -105,7 +106,7 @@ class EdithViewsUI extends GetView<EdithController> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
-                                image: AssetImage(ImagesPaths.IMG_C)
+                                image: AssetImage(ImagesPaths.IMG_C),
                               ),
                               color: AppColors.WHITE,
                               borderRadius: BorderRadius.all(
@@ -133,7 +134,9 @@ class EdithViewsUI extends GetView<EdithController> {
                                       Colors.grey[100],
                                     ),
                                   ),
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Get.toNamed(Rootes.BRIESIX);
+                                  },
                                   child: SizedBox(
                                     width: Get.width,
                                     child: Center(
@@ -151,7 +154,9 @@ class EdithViewsUI extends GetView<EdithController> {
                                       Colors.grey[100],
                                     ),
                                   ),
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Get.toNamed(Rootes.EDITPROFIL);
+                                  },
                                   child: SizedBox(
                                     width: Get.width,
                                     child: Center(
@@ -169,7 +174,9 @@ class EdithViewsUI extends GetView<EdithController> {
                                       Colors.grey[100],
                                     ),
                                   ),
-                                  onPressed: () {},
+                                  onPressed: () {
+                                     Get.toNamed(Rootes.BRIEFCINQ);
+                                  },
                                   child: SizedBox(
                                     width: Get.width,
                                     child: Center(
@@ -234,7 +241,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,
@@ -272,7 +279,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,
@@ -310,7 +317,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,
@@ -354,7 +361,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,
@@ -392,7 +399,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,
@@ -430,7 +437,7 @@ class EdithViewsUI extends GetView<EdithController> {
                                       ),
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: AssetImage(ImagesPaths.IMG_LI)
+                                        image: AssetImage(ImagesPaths.IMG_LI),
                                       ),
                                     ),
                                     width: double.infinity,

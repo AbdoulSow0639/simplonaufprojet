@@ -2,16 +2,15 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:simplon_auf_projet/Configs/API/CallAPI.dart';
 
-class EditprofilController extends GetxController {
-  TextEditingController nomController = TextEditingController();
-  TextEditingController AdresseController = TextEditingController();
-  TextEditingController EmailController = TextEditingController();
-  final formKey = GlobalKey<FormState>();
+class LoginController extends GetxController {
+  final formkey = GlobalKey<FormState>();
+  final local = GetStorage();
 
-  List rolelist = ["Admin", "Editeur", "Redacteur, Chomeur"];
-  final roles = "".obs;
+  TextEditingController NumController = TextEditingController();
+  TextEditingController PwdController = TextEditingController();
 
   @override
   void onInit() {
@@ -25,15 +24,11 @@ class EditprofilController extends GetxController {
     super.onReady();
   }
 
-  Register() async {
+  Login() async {
     showLoading();
-    var Data = {
-      "name": nomController.text,
-      "adresse": AdresseController.text,
-      "role": roles.value,
-      "email": EmailController.text,
-    };
-    final res = await Callapi.postDatas(Data, "CreateEdit.php");
+    var data = {"phone": NumController.text, "password": PwdController.text};
+    var res = await Callapi.postDatas(data, "Login.php");
+
     var resbody = jsonDecode(res.body);
     //showErrorDialog(description: "${res.statusCode}");
 
@@ -41,38 +36,11 @@ class EditprofilController extends GetxController {
       if (resbody["status"] == "Success") {
         Future.delayed(Duration(milliseconds: 2000), () {
           hideLoading();
-          showErrorDialog(title: "Success", description: resbody["Message"]);
+          local.write("usersid", resbody["usersid"]);
         });
       } else {
         hideLoading();
-        showErrorDialog(description: resbody["Message"]);
-      }
-    } else {
-      hideLoading();
-      showErrorDialog(description: resbody["Message"]);
-    }
-  }
 
-  UpdateDatas() async {
-    showLoading();
-    var Data = {
-      "name": nomController.text,
-      "adresse": AdresseController.text,
-      "role": roles.value,
-      "email": EmailController.text,
-    };
-    final res = await Callapi.updateCurrentDatas('8', Data, "UpdateEdit.php");
-    var resbody = jsonDecode(res.body);
-    //showErrorDialog(description: "${res.statusCode}");
-
-    if (res.statusCode == 200) {
-      if (resbody["status"] == "Success") {
-        Future.delayed(Duration(milliseconds: 2000), () {
-          hideLoading();
-          showErrorDialog(title: "Success", description: resbody["Message"]);
-        });
-      } else {
-        hideLoading();
         showErrorDialog(description: resbody["Message"]);
       }
     } else {
@@ -141,7 +109,6 @@ class EditprofilController extends GetxController {
       barrierDismissible: false,
     );
   }
-  
 
   @override
   void onClose() {

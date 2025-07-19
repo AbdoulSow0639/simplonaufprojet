@@ -3,21 +3,27 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class Callapi {
-  final String _url = "http://sambayaservice.com/api";
+  //final  String _url = "http://sambayaservice.com/api"; 
+  static String _url = "http://10.0.2.2/Api_Rest/Controllers/";
 
-  postDatas(datas, action) async {
+  static postDatas(datas, action) async{
     var finalUrl = _url + action;
 
-    return await http.post(Uri.parse(finalUrl), body: jsonEncode(datas));
+    return await http.post(
+      Uri.parse(finalUrl), 
+      body: jsonEncode(datas)
+    );
   }
 
-  getAllDatas(action) async {
+  static getAllDatas(action) async{
     var finalUrl = _url + action;
 
-    return await http.get(Uri.parse(finalUrl));
+    return await http.get(
+      Uri.parse(finalUrl)
+    );
   }
 
-  getCurrentDatas(id, action) async {
+  static getCurrentDatas(id, action) async{
     var finalUrl = _url + action;
 
     Map<String, String> queryParams = {"id_user": id};
@@ -30,7 +36,7 @@ class Callapi {
   }
 
  
-  updateCurrentDatas(id, datas, action) async {
+  static updateCurrentDatas(id, datas, action) async {
     var finalUrl = _url + action;
 
     Map<String, String> queryParams = {"id_user": id};
@@ -39,13 +45,16 @@ class Callapi {
 
     final AllUrl = uri.replace(queryParameters: queryParams);
 
-    return await http.put(AllUrl, body: jsonEncode(datas));
+    return await http.put(
+      AllUrl, 
+      body: jsonEncode(datas)
+    );
   }
 
   
-  deletecurrentDatas(id, action) async {
+  static deletecurrentDatas(id, action) async {
     var finalUrl = _url + action;
-    Map<String, String> queryParams = {"id_user": id};
+    Map<String, String> queryParams = {"id_user": "${id}"};
 
     Uri uri = Uri.parse(finalUrl);
 

@@ -9,6 +9,8 @@ import 'package:simplon_auf_projet/Modeles/Briefdeux/Binding/briefdeux_binding.d
 import 'package:simplon_auf_projet/Modeles/Briefdeux/Views/briefdeux_views.dart';
 import 'package:simplon_auf_projet/Modeles/Briefquatre/Binding/Briefquatre_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Briefquatre/Views/Briefquatre_views.dart';
+import 'package:simplon_auf_projet/Modeles/Briefsept/Binding/briefsept_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Briefsept/Views/briefsept_views.dart';
 import 'package:simplon_auf_projet/Modeles/Briefsix/Binding/briefsix_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Briefsix/Views/briefsix_views.dart';
 import 'package:simplon_auf_projet/Modeles/Brieftrois/Binding/brieftrois_binding.dart';
@@ -30,7 +32,11 @@ import 'package:simplon_auf_projet/Modeles/Home/Binding/home_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Home/Views/home_views.dart';
 import 'package:simplon_auf_projet/Modeles/Listefavoris/Binding/listefavoris_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Listefavoris/Views/listefavoris_views.dart';
+import 'package:simplon_auf_projet/Modeles/Login/Binding/login_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Login/Views/login_views.dart';
 import 'package:simplon_auf_projet/Modeles/Profil/Views/profil_views.dart';
+import 'package:simplon_auf_projet/Modeles/Splash/Binding/splash_binding.dart';
+import 'package:simplon_auf_projet/Modeles/Splash/Views/splash_views.dart';
 import 'package:simplon_auf_projet/Modeles/Start/Binding/start_binding.dart';
 import 'package:simplon_auf_projet/Modeles/Start/Views/start_views.dart';
 import 'package:simplon_auf_projet/Modeles/Start1/Binding/start1_binding.dart';
@@ -43,7 +49,7 @@ part 'RootName.dart';
 class Rootpage {
   Rootpage._();
 
-  static const INITIAL = Rootes.START1;
+  static const INITIAL = Rootes.SPLASH;
   static final root = [
     // Pour About
     GetPage(
@@ -186,6 +192,24 @@ class Rootpage {
       name: _Paths.START1,
       page: () => Start1ViewsUI(),
       binding: Start1Binding(),
+    ),
+    //Pour Login
+    GetPage(
+      name: _Paths.LOGIN,
+      page: () => LoginViewsUI(),
+      binding: LoginBinding(),
+    ),
+    //Pour Login
+    GetPage(
+      name: _Paths.SPLASH,
+      page: () => SplashViewsUI(),
+      binding: SplashBinding(),
+    ),
+    //Pour Login
+    GetPage(
+      name: _Paths.BRIEFSEPT,
+      page: () => BriefseptViewsUI(),
+      binding: BriefseptBinding(),
     ),
   ];
 }

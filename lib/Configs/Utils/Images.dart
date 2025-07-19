@@ -24,6 +24,7 @@ class ImagesPaths {
   static const Br6_L = "$ImgPaths/L_meteo.jpg";
   static const Br6_I = "$ImgPaths/I_meteo.jpg";
   static const Br6_I2 = "$ImgPaths/I2_meteo.jpg";
+  static const Br7_S = "$ImgPaths/Simplon.jpg";
   //Image Map
 
   static const ICON = "$IconPaths/logo.jpg";

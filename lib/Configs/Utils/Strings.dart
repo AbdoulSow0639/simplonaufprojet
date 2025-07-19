@@ -82,11 +82,10 @@ class AppStrings {
 
   static const String E_T = "Edith";
 
-  static const String B_H  = "Home";
+  static const String B_H = "Home";
   static const String B_E = "Editeur";
   static const String B_HI = "Historique";
   static const String B_P = "Profil";
-
 
   static const String E_E1 = "Editeur";
   static const String E_E2 = "Gros lot gagné";
@@ -151,7 +150,8 @@ class AppStrings {
   static const String Br5_PD = "Delete";
 
   static const String Br6_GnM = "Gn-Meteo";
-  static const String Br6_SGn = "Application de météo guinéenne qui affiche la météo à temps plein";
+  static const String Br6_SGn =
+      "Application de météo guinéenne qui affiche la météo en temps reel";
   static const String Br6_C = "Commencer";
   static const String Br6_GnR = "Gn-Recherche";
   static const String Br6_V = "Entrer un ville...";
@@ -163,5 +163,30 @@ class AppStrings {
   static const String Br6_Me = "Meteo : ";
   static const String Br6_T = "Temperature : 20 °C";
   static const String Br6_D = "Description : Nature venteuse";
- 
+
+
+  static const String Br7_N = "Simplon Guinée";
+  static const String Br7_P =
+      "Simplon vous accompagne simplement pour développer vos compétences numériques et rend les métiers de la Tech accessibles à toutes et à tous. ";
+  static const String Br7_Bn = "Naviguer";
+  static const String Br7_Bp = "Devener Partenaire";
+  static const String Br7_Cr = "Rechercher une formation...";
+  static const String Br7_L = "Live";
+  static const String Br7_Ch = "Chat IA";
+  static const String Br7_C = "Cours";
+  static const String Br7_E = "Emploi";
+  static const String Br7_Nf1 = "Nos Formateurs";
+  static const String Br7_Df = "Devenez formateur";
+  static const String Br7_N1 = "Issiaga Bah";
+  static const String Br7_P1 = "Developpeurs Mobile";
+  static const String Br7_P2 = "Designeur";
+  static const String Br7_P3 = "Developpeur Web";
+  static const String Br7_Na = "Nos Apprenants";
+  static const String Br7_Da = "Devenez Apprenant";
+  static const String Br7_Nf2 = "Nos Formations";
+  static const String Br7_N2 = "Fodé Soumah";
+  static const String Br7_D = "Date: 18/07/2025";
+  static const String Br7_Li = "Lieu: À L'AUF";
+  static const String Br7_H = "Heure: 12:31";
+  static const String Br7_N3 = "Oumou Kanté";
 }

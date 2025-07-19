@@ -186,4 +186,50 @@ class StylesUI {
     color: Colors.blueGrey,
     fontWeight: FontWeight.bold,
   );
+
+
+  static const TextStyle Br7_N = TextStyle(
+    fontSize: 35,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br7_P = TextStyle(
+    fontSize: 22,
+    color: Colors.grey,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br7_EB = TextStyle(
+    fontSize: 25,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br7_N2 = TextStyle(
+    fontSize: 30,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br7_I = TextStyle(
+    fontSize: 20,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle Br7_TB = TextStyle(
+    fontSize: 16,
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br7_P1 = TextStyle(
+    fontSize: 16,
+    color: Colors.black,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle Br7_P2 = TextStyle(
+    fontSize: 10,
+    color: Colors.black87,
+    //fontWeight: FontWeight.bold,
+  );
 }

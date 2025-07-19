@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 
-class BriefsixController extends GetxController {
-  
+class SplashController extends GetxController {
   @override
   void onInit() {
     // TODO: implement onInit

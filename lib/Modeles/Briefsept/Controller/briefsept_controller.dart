@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class BriefsixController extends GetxController {
+class BriefseptController extends GetxController {
   
   @override
   void onInit() {
